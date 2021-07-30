@@ -1,0 +1,637 @@
+id	Subject	Status	QueueName	Owner	Priority	Requestors	Created	CreatedRelative	LastUpdatedRelative	CustomField.{ANSS Stations}	CustomField.{GSN Stations}	CustomField.{N4 Stations}
+20581	D62A - 80% apparent availability because IRIS fails to flag HN* channels as triggered	open	N4 Network	Nobody in particular	0	ewolin (Emily Wolin)	Fri Jul 30 15:51:36 2021	2 minutes ago	26 seconds ago			D62A
+19483	N4_Q51A Recurring Outages - Low Power Suspected	open	N4 Network	kmwallace1 (Kyle Wallace)	0	kmwallace1 (Kyle Wallace)	Mon Jan 18 17:18:35 2021	6 months ago	36 minutes ago			Q51A
+20579	M44A - IRIS metadata has both 12Z and UVW mass positions	new	N4 Network	Nobody in particular	0	ewolin (Emily Wolin)	Fri Jul 30 13:18:53 2021	3 hours ago	3 hours ago			M44A
+20575	Z35B - Outage 2021-07-29 (210) 09:42:57 UTC - No Comms to Q330	new	N4 Network	kmwallace1 (Kyle Wallace)	0	kmwallace1 (Kyle Wallace)	Fri Jul 30 09:59:38 2021	6 hours ago	6 hours ago			Z35B
+18634	NE_EMMW (20): RT-147 Sensor failure	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Mon Jul 20 11:35:10 2020	1 year ago	25 hours ago	NE-EMMW		
+19013	IW_LOHW T120 is no longer operational	open	ANSS-backbone	anss_opadmin	1		Fri Sep 04 10:46:02 2020	11 months ago	25 hours ago	IW-LOHW		
+17757	P43A - Convert to VSAT to address frequent telemetry outages	open	N4 Network	jander (Jared Anderson)	0	aalejandro (Alexis Alejandro)	Tue Jan 07 15:20:36 2020	2 years ago	25 hours ago			P43A
+19842	RAO: Network link is up and down since M6.3 earthquake 4/1/2021	open	GSN	ekromer (Ted Kromer)	1	ekromer (Ted Kromer)	Thu Apr 01 11:28:15 2021	4 months ago	27 hours ago		RAO	
+20171	FUNA - No Telemetry Data	open	GSN	ekromer (Ted Kromer)	1	aalejandro (Alexis Alejandro)	Thu May 13 13:57:47 2021	3 months ago	27 hours ago		FUNA	
+17899	CU-GRTK: Unable to run autocal sequence in EdgeConfig. Potential VSAT issue	new	GSN	anss_opadmin	1	aholcomb (Andrew Holcomb)	Fri Jan 24 16:24:57 2020	2 years ago	28 hours ago		GRTK	
+18537	ACSO - SensOrLoc Test	open	ANSS-backbone	kmwallace1 (Kyle Wallace)	50		Fri Jun 26 11:42:19 2020	1 year ago	28 hours ago	ACSO		
+18538	CBN - SensOrLoc Test	open	ANSS-backbone	kmwallace1 (Kyle Wallace)	50		Fri Jun 26 11:42:58 2020	1 year ago	28 hours ago	CBN		
+20513	ISCO - Install heated VSAT dish	new	ANSS-backbone	Nobody in particular	50	jallen (James Allen)	Mon Jul 19 10:02:17 2021	11 days ago	28 hours ago	ISCO		
+20477	COR: No data since 7/10/2021, cannot connect to VSAT 	open	GSN	koliver (Kenneth Oliver)	1	ekromer (Ted Kromer)	Mon Jul 12 10:42:28 2021	3 weeks ago	31 hours ago		COR	
+20570	P46A, K62A - Pre-Deployment Data Checks	open	N4 Network	aalejandro (Alexis Alejandro)	0	gvallo (Gilbert Vallo)	Tue Jul 27 15:08:55 2021	3 days ago	2 days ago			P46A
+20241	P46A - 00 TR240 No Longer Recording Ground Motion	open	N4 Network	n4_opadmin	0	aalejandro (Alexis Alejandro)	Fri May 28 17:24:57 2021	2 months ago	2 days ago			P46A
+20572	T57A - Low Verizon Cell Signal and outdated Firmware 	open	N4 Network	<koliver@contractor.usgs.gov>	0	koliver (Kenneth Oliver)	Wed Jul 28 09:13:07 2021	2 days ago	2 days ago			T57A
+20569	HRV, WCI - Pre Deployment Quality Checks	new	GSN	aholcomb (Andrew Holcomb)	1	gvallo (Gilbert Vallo)	Tue Jul 27 15:05:49 2021	3 days ago	3 days ago		HRV	
+20563	KIP - STS2.5 (10) Large pulse on July 16 (196) causing lasting noise issues on Z component	new	GSN	gsn_opadmin	1	aholcomb (Andrew Holcomb)	Tue Jul 27 12:33:05 2021	3 days ago	3 days ago		KIP	
+20562	KMBO: Down once again beginning 7-24-2021	open	GSN	gsn_opadmin	1	ekromer (Ted Kromer)	Tue Jul 27 08:54:57 2021	3 days ago	3 days ago		KMBO	
+13621	US-ECSD CMG3TB noisy vertical	open	ANSS-backbone	sploetz (Steve Ploetz)	1		Thu Dec 07 14:23:16 2017	4 years ago	4 days ago	ECSD		
+20467	GSN Mail List Update - Voss	open	GSN	nvoss (Nick Voss)	1	jander (Jared Anderson)	Thu Jul 08 17:08:16 2021	3 weeks ago	4 days ago		GSN	
+20510	RCBR - Q330#1 Intermittent Power Outages	open	GSN	ekromer (Ted Kromer)	1	aalejandro (Alexis Alejandro)	Thu Jul 15 12:10:13 2021	2 weeks ago	7 days ago		RCBR	
+20373	US_VBMS: No comms after 2021-06-20 (171) 15:05:40 UTC    	open	ANSS-backbone	kmwallace1 (Kyle Wallace)	1	ewolin (Emily Wolin)	Tue Jun 22 09:43:04 2021	5 weeks ago	7 days ago	VBMS		
+20558	Trillium 360 Vault Seismometer Work Instructions	new	GSN	gsn_opadmin	1	nvoss (Nick Voss)	Fri Jul 23 09:18:24 2021	7 days ago	7 days ago		Other	
+20550	POHA GUMO Pre-Deployment Data Quality Check	new	GSN	aholcomb (Andrew Holcomb)	1	davidjones (David Kyle Jones)	Thu Jul 22 13:44:26 2021	8 days ago	8 days ago		GUMO	
+20548	ANTO: No telemetry or network connection	open	GSN	gsn_opadmin	1	ekromer (Ted Kromer)	Thu Jul 22 12:34:40 2021	8 days ago	8 days ago		ANTO	
+20545	R32B - replace solar charge controller on next visit	open	N4 Network	n4_opadmin	0	ewolin (Emily Wolin)	Thu Jul 22 10:54:04 2021	8 days ago	8 days ago			R32B
+19825	CU_GRGR - Episensor failure on March 9 (068). Needs replacement	open	GSN	gvallo (Gilbert Vallo)	1	aholcomb (Andrew Holcomb)	Mon Mar 29 17:44:44 2021	4 months ago	8 days ago		GRGR	
+20544	OTAV – Check for Gaps in Archive Data 	open	GSN	aholcomb (Andrew Holcomb)	1	koliver (Kenneth Oliver)	Thu Jul 22 06:58:06 2021	8 days ago	8 days ago		OTAV	
+16718	N4_Z35B: STS-2 Showing as Failed	open	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Mon Jul 15 14:14:25 2019	2 years ago	9 days ago			Z35B
+20393	L34B - Poor Clock Quality	open	N4 Network	n4_opadmin	0	aalejandro (Alexis Alejandro)	Fri Jun 25 15:11:56 2021	5 weeks ago	9 days ago			L34B
+17292	US_CBKS (20): EST-S4G showing signs of failure	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Tue Oct 15 17:06:29 2019	2 years ago	9 days ago	CBKS		
+20540	BINY: (00) STS2 Vertical component showing jumps and pulses. Potential sign of failure 	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Wed Jul 21 12:53:38 2021	9 days ago	9 days ago	BINY		
+20532	N4_R55A - Outage 2021-07-20 (201) 22:38:50 UTC - No Comms to Q330/Modem	new	N4 Network	kmwallace1 (Kyle Wallace)	0	kmwallace1 (Kyle Wallace)	Wed Jul 21 08:02:07 2021	9 days ago	9 days ago			R55A
+20295	N4_T35B Outage - 2021-06-06 (157) 19:59:02 UTC	new	N4 Network	kmwallace1 (Kyle Wallace)	0	kmwallace1 (Kyle Wallace)	Mon Jun 07 16:13:48 2021	8 weeks ago	9 days ago			T35B
+20438	P61A - Frequent Gaps in Data Starting July 6th, 2021	new	N4 Network	n4_opadmin	0	aalejandro (Alexis Alejandro)	Wed Jul 07 15:08:11 2021	3 weeks ago	9 days ago			P61A
+20476	451A outage since 2021-07-03 (184) 23:40:46 UTC	new	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Fri Jul 09 12:20:56 2021	3 weeks ago	9 days ago			451A
+20271	SJG – Check for Gaps in Archive Data 	open	GSN	aholcomb (Andrew Holcomb)	1	koliver (Kenneth Oliver)	Thu Jun 03 17:39:47 2021	8 weeks ago	10 days ago		SJG	
+18457	GRTK LN2: Episensor has multiple jumps and pulses. Possible failure	open	GSN	gsn_opadmin	1	aholcomb (Andrew Holcomb)	Mon Jun 01 17:26:59 2020	1 year ago	10 days ago		GRTK	
+18167	OGNE - Rodent proof McMillan Vault Enclosure	new	ANSS-backbone	jallen (James Allen)	1	jallen (James Allen)	Thu Apr 16 16:19:20 2020	1 year ago	11 days ago	OGNE		
+20501	DGMT: Intermittent data on July 9-11, complete drop since 2021-07-11 (192) 09:41:36 UTC	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Wed Jul 14 13:15:01 2021	2 weeks ago	11 days ago	DGMT		
+20512	WVT – Check for Gaps in Archive Data 	open	GSN	aholcomb (Andrew Holcomb)	1	koliver (Kenneth Oliver)	Mon Jul 19 07:04:45 2021	11 days ago	11 days ago		WVT	
+17555	US_TPNV - Poor Clock Quality	stalled	ANSS-backbone	anss_opadmin	1	ambaker (Adam Baker)	Tue Nov 26 08:47:08 2019	2 years ago	14 days ago	TPNV		
+20453	TATO - Operator Re-level STS-2 Instructions	open	GSN	ekromer (Ted Kromer)	1	aalejandro (Alexis Alejandro)	Thu Jul 08 15:31:00 2021	3 weeks ago	2 weeks ago		TATO	
+20486	Q56A - No Data Being Received	open	N4 Network	n4_opadmin	0	aalejandro (Alexis Alejandro)	Mon Jul 12 15:31:31 2021	3 weeks ago	2 weeks ago			Q56A
+20410	T57A - Constant Drop Outs and Gaps in Data	open	N4 Network	jander (Jared Anderson)	0	aalejandro (Alexis Alejandro)	Tue Jun 29 13:50:12 2021	4 weeks ago	2 weeks ago			T57A
+17921	TIXI_00_?HZ: STS1 Vertical Mass nearly pegged after drifting 	open	GSN	jander (Jared Anderson)	1	aholcomb (Andrew Holcomb), tstorm (Tyler Storm)	Thu Jan 30 11:35:49 2020	1 year ago	2 weeks ago		TIXI	
+17908	T57A - STS2 Needs Replacement - Vertical no longer recording ground motion	open	N4 Network	jander (Jared Anderson)	0	aalejandro (Alexis Alejandro)	Mon Jan 27 15:42:35 2020	2 years ago	2 weeks ago			T57A
+20493	INCN: Run an auto-recenter command in Mid-November, 2021. Then, do not touch.	open	GSN	gsn_opadmin	1	aholcomb (Andrew Holcomb)	Tue Jul 13 11:28:21 2021	2 weeks ago	2 weeks ago		INCN	
+20269	PAB – Check for Gaps in Archive Data 	open	GSN	aholcomb (Andrew Holcomb)	1	koliver (Kenneth Oliver)	Thu Jun 03 16:59:15 2021	8 weeks ago	3 weeks ago		PAB	
+20268	MAJO – Check for Gaps in Archive Data 	open	GSN	aholcomb (Andrew Holcomb)	1	koliver (Kenneth Oliver)	Thu Jun 03 16:52:40 2021	8 weeks ago	3 weeks ago		MAJO	
+20266	KIP – Check for Gaps in Archive Data 	open	GSN	aholcomb (Andrew Holcomb)	1	koliver (Kenneth Oliver)	Thu Jun 03 16:29:03 2021	8 weeks ago	3 weeks ago		KIP	
+20263	GUMO – Check for Gaps in Archive Data 	open	GSN	aholcomb (Andrew Holcomb)	1	koliver (Kenneth Oliver)	Thu Jun 03 16:07:45 2021	8 weeks ago	3 weeks ago		GUMO	
+20262	GNI – Check for Gaps in Archive Data 	open	GSN	aholcomb (Andrew Holcomb)	1	koliver (Kenneth Oliver)	Thu Jun 03 15:30:02 2021	8 weeks ago	3 weeks ago		GNI	
+20258	COR – Check for Gaps in Archive Data 	open	GSN	aholcomb (Andrew Holcomb)	1	koliver (Kenneth Oliver)	Thu Jun 03 14:56:16 2021	8 weeks ago	3 weeks ago		COR	
+20487	G65A - Episensor Showing Signs of Failure	new	N4 Network	n4_opadmin	0	aalejandro (Alexis Alejandro)	Mon Jul 12 15:56:51 2021	3 weeks ago	3 weeks ago			G65A
+20260	DAV – Check for Gaps in Archive Data 	open	GSN	aholcomb (Andrew Holcomb)	1	koliver (Kenneth Oliver)	Thu Jun 03 15:11:54 2021	8 weeks ago	3 weeks ago		DAV	
+20339	T360 GSN Vault Seis foam box vs. factory enclosure	open	GSN	koliver (Kenneth Oliver)	1	jander (Jared Anderson)	Thu Jun 17 17:31:27 2021	6 weeks ago	3 weeks ago		GSN	
+20384	IU_WCI – Check for Gaps in Archive Data 	open	GSN	aholcomb (Andrew Holcomb)	1	koliver (Kenneth Oliver)	Tue Jun 22 15:20:17 2021	5 weeks ago	3 weeks ago		WCI	
+20420	SSPA – Check for Gaps in Archive Data 	open	GSN	aholcomb (Andrew Holcomb)	1	koliver (Kenneth Oliver)	Thu Jul 01 09:43:46 2021	4 weeks ago	3 weeks ago		SSPA	
+20419	PTCN – Check for Gaps in Archive Data	open	GSN	aholcomb (Andrew Holcomb)	1	koliver (Kenneth Oliver)	Thu Jul 01 09:38:29 2021	4 weeks ago	3 weeks ago		PTCN	
+20254	AFI – Check for Gaps in Archive Data 	open	GSN	aholcomb (Andrew Holcomb)	1	koliver (Kenneth Oliver)	Thu Jun 03 13:50:17 2021	8 weeks ago	3 weeks ago		AFI	
+20345	N4_Q51A – Check for Gaps in Archive Data 	open	N4 Network	ttelesha (Tom Telesha)	0	koliver (Kenneth Oliver)	Fri Jun 18 11:09:03 2021	6 weeks ago	3 weeks ago			Q51A
+20471	GSN Mail List Update - Anderson	new	GSN	jander (Jared Anderson)	1	jander (Jared Anderson)	Thu Jul 08 17:23:50 2021	3 weeks ago	3 weeks ago		GSN	
+20470	GSN Mail List Update - Persefield	new	GSN	kpersefield (Kyle Persefield)	1	jander (Jared Anderson)	Thu Jul 08 17:20:48 2021	3 weeks ago	3 weeks ago		GSN	
+20469	GSN Mail List Update - Maharrey	new	GSN	jzmaharrey (Joseph Zebulon Maharrey)	1	jander (Jared Anderson)	Thu Jul 08 17:17:07 2021	3 weeks ago	3 weeks ago		GSN	
+20468	GSN Mail List Update - Patton	new	GSN	jvpatton (Jason Patton)	1	jander (Jared Anderson)	Thu Jul 08 17:10:50 2021	3 weeks ago	3 weeks ago		GSN	
+20466	GSN Mail List Update - Oliver	new	GSN	koliver (Kenneth Oliver)	1	jander (Jared Anderson)	Thu Jul 08 17:05:41 2021	3 weeks ago	3 weeks ago		GSN	
+20465	GSN Mail List Update - Jones	new	GSN	davidjones (David Kyle Jones)	1	jander (Jared Anderson)	Thu Jul 08 17:01:46 2021	3 weeks ago	3 weeks ago		GSN	
+20464	GSN Mail List Update - Vallo	new	GSN	gvallo (Gilbert Vallo)	1	jander (Jared Anderson)	Thu Jul 08 16:58:50 2021	3 weeks ago	3 weeks ago		GSN	
+20463	WVT: B44 Baler #2 is talking with Q330 #2 	open	GSN	<koliver@contractor.usgs.gov>	1	koliver (Kenneth Oliver)	Thu Jul 08 16:57:08 2021	3 weeks ago	3 weeks ago		WVT	
+20462	GSN Mail List Update - Kromer	new	GSN	ekromer (Ted Kromer)	1	jander (Jared Anderson)	Thu Jul 08 16:55:51 2021	3 weeks ago	3 weeks ago		GSN	
+20461	DWPF: B44 Baler #2 is talking with Q330 #2 	open	GSN	<koliver@contractor.usgs.gov>	1	koliver (Kenneth Oliver)	Thu Jul 08 16:50:19 2021	3 weeks ago	3 weeks ago		DWPF	
+20447	GSN - T360 GSN Vault Install Work Instruction	new	GSN	nvoss (Nick Voss)	1	jander (Jared Anderson)	Thu Jul 08 14:59:07 2021	3 weeks ago	3 weeks ago		GSN	
+20439	N4 – K62A: QEP shows Humidity as 0% 	open	N4 Network	<koliver@contractor.usgs.gov>	0	koliver (Kenneth Oliver)	Thu Jul 08 09:27:20 2021	3 weeks ago	3 weeks ago			K62A
+20097	KIP - Q330s Internal Battery Dead 	open	GSN	koliver (Kenneth Oliver)	3	koliver (Kenneth Oliver)	Mon Apr 26 18:11:34 2021	3 months ago	3 weeks ago		KIP	
+20034	STS-2 Host Box 10604 	open	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:25:04 2021	3 months ago	3 weeks ago		Other	
+20435	TARA: Q330 #1 shows "Reduced Packet Memory" message	open	GSN	gsn_opadmin	1	ekromer (Ted Kromer)	Wed Jul 07 09:20:47 2021	3 weeks ago	3 weeks ago		TARA	
+19574	SNZO - Q330#2 has a Packet Memory Error	open	GSN	<koliver@contractor.usgs.gov>	1	koliver (Kenneth Oliver)	Thu Feb 11 16:38:11 2021	6 months ago	3 weeks ago		SNZO	
+20412	ERPA - Replace ubiquity router	open	ANSS-backbone	Nobody in particular	1	ttelesha (Tom Telesha)	Tue Jun 29 15:09:17 2021	4 weeks ago	3 weeks ago	ERPA		
+16855	ANTO: Low clock quality	open	GSN	ekromer (Ted Kromer)	1	ekromer (Ted Kromer)	Fri Aug 02 14:33:56 2019	2 years ago	3 weeks ago		ANTO	
+19923	T360-SV1  S/N 000116	open	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Thu Apr 15 14:04:42 2021	3 months ago	4 weeks ago		Other	
+19920	T360-SV1    S/N 000113	open	GSN	gsn_opadmin	4	wmaggio (Wendy Maggio)	Thu Apr 15 13:18:53 2021	3 months ago	4 weeks ago		Other	
+19656	KMBO - Failed Equipment Returns	open	GSN	ekromer (Ted Kromer)	1	kpersefield (Kyle Persefield)	Tue Mar 02 11:02:33 2021	5 months ago	4 weeks ago		KMBO	
+20305	FURI: Telemetry Outage	open	GSN	gsn_opadmin	1	ttelesha (Tom Telesha)	Wed Jun 09 08:41:18 2021	7 weeks ago	4 weeks ago		FURI	
+16762	KMBO: *H1 in free oscillation	open	GSN	ekromer (Ted Kromer)	1	aholcomb (Andrew Holcomb)	Thu Jul 18 14:01:08 2019	2 years ago	4 weeks ago		KMBO	
+20417	P57A - STS2 Z Channel No Longer Recording Ground Motion	new	N4 Network	n4_opadmin	0	aalejandro (Alexis Alejandro)	Wed Jun 30 13:15:43 2021	4 weeks ago	4 weeks ago			P57A
+20403	S61A - Q330 not responding	new	N4 Network	jallen (James Allen)	0	jallen (James Allen)	Tue Jun 29 12:06:44 2021	4 weeks ago	4 weeks ago			S61A
+20402	S61A multiple telemetry dropouts before going down 2021-06-28 (179) 06:11:35 UTC	new	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Tue Jun 29 11:56:05 2021	4 weeks ago	4 weeks ago			S61A
+20253	ADK – Check for Gaps in Archive Data 	open	GSN	aholcomb (Andrew Holcomb)	1	koliver (Kenneth Oliver)	Thu Jun 03 13:32:42 2021	8 weeks ago	4 weeks ago		ADK	
+19360	N4_I40B - Noise on Z component --Showing signs of failure	open	N4 Network	n4_opadmin	0		Mon Dec 14 13:06:29 2020	7 months ago	5 weeks ago			I40B
+19435	N4_G40A - CMG3T increase in vertical noise	open	N4 Network	n4_opadmin	0		Mon Jan 04 08:40:29 2021	7 months ago	5 weeks ago			G40A
+18225	SPMN 00 (STS2): Large pulses cause high temporary vertical noise lasting up to 48 hours	open	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Thu Apr 30 19:23:39 2020	1 year ago	5 weeks ago			SPMN
+16819	N4_I40B - Highly Latent Data	open	N4 Network	n4_opadmin	0	ambaker (Adam Baker)	Mon Jul 29 13:27:38 2019	2 years ago	5 weeks ago			I40B
+13938	US-AGMN VSAT failure in cold temp (add temp controlled heater)	stalled	ANSS-backbone	Nobody in particular	1		Tue Feb 06 13:19:11 2018	3 years ago	5 weeks ago	AGMN		
+20388	RLMT - Increased Noise on STS-2 and Signs of Failure	new	ANSS-backbone	anss_opadmin	1	aalejandro (Alexis Alejandro)	Thu Jun 24 14:54:44 2021	5 weeks ago	5 weeks ago	RLMT		
+15599	TSUM - Drill Borehole(s)	open	GSN	ggyure (Gary Gyure)	1	jander (Jared Anderson)	Mon Nov 19 17:14:12 2018	3 years ago	5 weeks ago		TSUM	
+20372	WCI - 2 sets of 2 reboots on June 9th and June 19th, 2021	open	GSN	gsn_opadmin	1	aholcomb (Andrew Holcomb)	Mon Jun 21 17:06:43 2021	6 weeks ago	5 weeks ago		WCI	
+19555	Interfacing seismic digitizer with IceCube Electronics 	new	GSN	davidjones (David Kyle Jones)	1	reanthony (Robert E. Anthony)	Tue Feb 09 13:33:08 2021	6 months ago	5 weeks ago		QSPA	
+20385	N4_R40B Outage - 2021-06-18 (169) 20:59:34 UTC	new	N4 Network	kmwallace1 (Kyle Wallace)	0	kmwallace1 (Kyle Wallace)	Wed Jun 23 10:49:08 2021	5 weeks ago	5 weeks ago			R40B
+15377	GUMO - LIO, LDO, LKO weather stations long gaps and data jumps since Day 160 2018. 	open	GSN	davidjones (David Kyle Jones)	1		Fri Oct 12 13:39:37 2018	3 years ago	5 weeks ago		GUMO	
+13400	GSN - Slate Build Router Reverse Telnet Update for RMS board access	open	GSN	davidjones (David Kyle Jones)	1	jander (Jared Anderson)	Tue Oct 17 10:18:17 2017	4 years ago	5 weeks ago		GSN	
+17534	SAML - Equipment Testing and Shipping	open	GSN	davidjones (David Kyle Jones)	1	jander (Jared Anderson)	Fri Nov 22 11:26:16 2019	2 years ago	5 weeks ago		SAML	
+15915	NWAO - Episensor failure around day 2019, 041	open	GSN	davidjones (David Kyle Jones)	1		Mon Feb 25 13:03:51 2019	2 years ago	5 weeks ago		NWAO	
+19679	GSN: Falcon Replacement	open	GSN	davidjones (David Kyle Jones)	1	davidjones (David Kyle Jones)	Tue Mar 09 10:22:22 2021	5 months ago	5 weeks ago		Other	
+19377	LSZ: Ongoing Power Issues	open	GSN	davidjones (David Kyle Jones)	1	davidjones (David Kyle Jones)	Wed Dec 16 07:22:25 2020	7 months ago	5 weeks ago		LSZ	
+19597	SSPA - Archive Missing 2020 Data	open	GSN	aholcomb (Andrew Holcomb)	1	jander (Jared Anderson)	Thu Feb 18 12:54:34 2021	5 months ago	5 weeks ago		SSPA	
+20337	MIAR 00 - PEGGED after large pulse on June 18 (168) at 09:16 UTC	open	ANSS-backbone	aholcomb (Andrew Holcomb)	1	aholcomb (Andrew Holcomb)	Thu Jun 17 12:40:56 2021	6 weeks ago	6 weeks ago	MIAR		
+11486	KMI 20_EpiSensor BAD	open	GSN	jzmaharrey (Joseph Zebulon Maharrey)	1		Fri Apr 29 14:17:57 2016	5 years ago	6 weeks ago		KMI	
+20332	KVTX - Multiple Q330 reboots since the team visited the site June 9 (160), 2021	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Wed Jun 16 16:23:53 2021	6 weeks ago	6 weeks ago	KVTX		
+19268	US_MCWV: Intermittent power loss (321), 2020 at 16:17 UTC. Station rebooted at 21:26 UTC	open	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Tue Nov 17 16:57:06 2020	8 months ago	6 weeks ago	MCWV		
+15006	HNH - 20_RT147 Signs of Failure	open	ANSS-backbone	anss_opadmin	1	aalejandro (Alexis Alejandro)	Wed Aug 29 14:26:51 2018	3 years ago	6 weeks ago	NE-HNH		
+18464	KONO - 00_?H1-Component Pulsing	stalled	GSN	jander (Jared Anderson)	1		Thu Jun 04 17:55:55 2020	1 year ago	6 weeks ago		KONO	
+18735	WAKE - Retrieve Baler USB drives to backfill 2019_334-2020_119	open	GSN	koliver (Kenneth Oliver)	1	jander (Jared Anderson)	Mon Aug 10 18:12:06 2020	12 months ago	7 weeks ago		WAKE	
+20285	N4_L34B – Check for Gaps in Archive Data 	open	N4 Network	aalejandro (Alexis Alejandro)	0	koliver (Kenneth Oliver)	Fri Jun 04 13:52:35 2021	8 weeks ago	8 weeks ago			L34B
+20257	N4_257A Outage - 2021-06-03 (154) 15:12:02 UTC - Savannah, GA	new	N4 Network	kmwallace1 (Kyle Wallace)	0	kmwallace1 (Kyle Wallace)	Thu Jun 03 14:55:01 2021	8 weeks ago	8 weeks ago			257A
+20274	WCI – Check for Gaps in Archive Data 	open	GSN	aholcomb (Andrew Holcomb)	1	koliver (Kenneth Oliver)	Thu Jun 03 18:04:51 2021	8 weeks ago	8 weeks ago		WCI	
+20273	TUC – Check for Gaps in Archive Data 	open	GSN	aholcomb (Andrew Holcomb)	1	koliver (Kenneth Oliver)	Thu Jun 03 17:56:13 2021	8 weeks ago	8 weeks ago		TUC	
+20272	SNZO – Check for Gaps in Archive Data 	open	GSN	aholcomb (Andrew Holcomb)	1	koliver (Kenneth Oliver)	Thu Jun 03 17:49:46 2021	8 weeks ago	8 weeks ago		SNZO	
+15691	SSPA - STS6 pulsing on ?H2	stalled	GSN	aalejandro (Alexis Alejandro)	1		Mon Dec 10 14:18:15 2018	3 years ago	8 weeks ago		SSPA	
+19899	N4 - J59A Intermittent Gaps in Data	new	N4 Network	n4_opadmin	0	aalejandro (Alexis Alejandro)	Tue Apr 13 09:17:25 2021	4 months ago	8 weeks ago			J59A
+19399	BCIP - No Data - VSAT Inop	open	GSN	jander (Jared Anderson)	1	jander (Jared Anderson)	Wed Dec 23 13:27:03 2020	7 months ago	2 months ago		BCIP	
+15844	TUC temperature study and control	open	GSN	aalejandro (Alexis Alejandro)	1	ggyure (Gary Gyure)	Mon Feb 11 15:04:02 2019	2 years ago	2 months ago		TUC	
+16209	N4_X51A - Noisy Vertical on Episensor, Needs Replacement	open	N4 Network	gsn_opadmin	0		Wed Apr 10 15:37:01 2019	2 years ago	2 months ago			X51A
+20197	N4_TIGA: Episensor Vertical Component pulsing, sign of potential failure	new	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Tue May 18 18:05:52 2021	2 months ago	2 months ago			TIGA
+20187	KVTX automatic recenter enabled	open	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Mon May 17 17:29:33 2021	2 months ago	2 months ago	KVTX		
+20181	Q56A - Increasing Noise on TR240	new	N4 Network	n4_opadmin	0	aalejandro (Alexis Alejandro)	Mon May 17 13:34:12 2021	2 months ago	2 months ago			Q56A
+15367	N4_P48A - Setra and Hyperion (?DF[O]) are flat-lined	open	N4 Network		0		Thu Oct 11 14:55:26 2018	3 years ago	2 months ago			P48A
+20175	 T360-PH1-GSN-XC Trillium PH Polar Environment	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Fri May 14 10:32:55 2021	3 months ago	3 months ago		Other	
+19663	N4-T35B: Intermittent communications with cell modem	open	N4 Network	sploetz (Steve Ploetz)	0	sploetz (Steve Ploetz)	Wed Mar 03 06:21:21 2021	5 months ago	3 months ago			T35B
+20149	ANMX - Slate Replacement Environmental Checks	open	GSN	gsn_opadmin	1	jander (Jared Anderson)	Fri May 07 13:45:32 2021	3 months ago	3 months ago		ANMX	
+20148	ANMX - Slate Replacement Data Checks	new	GSN	aholcomb (Andrew Holcomb)	1	jander (Jared Anderson)	Fri May 07 13:36:50 2021	3 months ago	3 months ago		ANMX	
+20147	ANMX - Slate Replacement Acquisition Test	new	GSN	ttelesha (Tom Telesha)	1	jander (Jared Anderson)	Fri May 07 13:29:45 2021	3 months ago	3 months ago		ANMX	
+18976	MAJO 10 (STS2HG) - showing signs of failure	open	GSN	gsn_opadmin	1	aholcomb (Andrew Holcomb)	Mon Aug 31 17:51:17 2020	11 months ago	3 months ago		MAJO	
+20091	LSZ - 00 STS1 Vertical Mass in Free Oscillation	stalled	GSN	gsn_opadmin	1	aalejandro (Alexis Alejandro)	Fri Apr 23 08:58:46 2021	3 months ago	3 months ago		LSZ	
+20129	HDIL:  Can not center masses due to poor cell communications	open	ANSS-backbone	sploetz (Steve Ploetz)	1	sploetz (Steve Ploetz)	Wed May 05 08:13:58 2021	3 months ago	3 months ago	HDIL		
+19674	WMOK:  Power outage due to fire	new	ANSS-backbone	sploetz (Steve Ploetz)	1	sploetz (Steve Ploetz)	Mon Mar 08 05:56:33 2021	5 months ago	3 months ago	WMOK		
+18227	FURI - No Remote Access using Willard and unable to run any HF cals	new	GSN	<koliver@contractor.usgs.gov>	1	koliver (Kenneth Oliver)	Fri May 01 12:00:13 2020	1 year ago	3 months ago		FURI	
+19750	PAB STS-2 showing signs of failure	open	GSN	gvallo (Gilbert Vallo)	1	tstorm (Tyler Storm)	Thu Mar 18 10:33:57 2021	4 months ago	3 months ago		PAB	
+19636	NLWA:  Data gapping (WA)	open	ANSS-backbone	sploetz (Steve Ploetz)	1	sploetz (Steve Ploetz)	Fri Feb 26 08:48:43 2021	5 months ago	3 months ago	NLWA		
+18243	061Z - No Data / Q330 unreachable via good cell link	open	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb), jander (Jared Anderson)	Tue May 05 10:35:44 2020	1 year ago	3 months ago			061Z
+11931	Make 4 DC Distribution Boxes IAW 275.19200.0X Series	open	GSN	yprior (Yolanda Prior)	1	kpersefield (Kyle Persefield)	Tue Aug 30 12:56:21 2016	5 years ago	3 months ago		Other	
+17915	L46A - Large pulsing on T240 Vertical Starting 01/27	stalled	N4 Network	n4_opadmin	0	aalejandro (Alexis Alejandro)	Tue Jan 28 15:01:22 2020	2 years ago	3 months ago			L46A
+18251	N4 – X51A Q330SR shows Packet Memory Error 	stalled	N4 Network	<koliver@contractor.usgs.gov>	0	koliver (Kenneth Oliver)	Fri May 08 10:03:18 2020	1 year ago	3 months ago			X51A
+19955	N4 – V58A Q330 has a Reduced Packet Memory error. 	open	N4 Network	koliver (Kenneth Oliver)	0	koliver (Kenneth Oliver)	Mon Apr 19 15:04:25 2021	3 months ago	3 months ago			V58A
+18406	N4 – V48A Q330SR shows Reduced Packet Memory	stalled	N4 Network	<koliver@contractor.usgs.gov>	0	koliver (Kenneth Oliver)	Fri May 22 09:22:25 2020	1 year ago	3 months ago			V48A
+19930	N4 – T59A Q330 has a Reduced Packet Memory error. 	open	N4 Network	koliver (Kenneth Oliver)	0	koliver (Kenneth Oliver)	Thu Apr 15 17:17:19 2021	3 months ago	3 months ago			T59A
+19780	N4 – K43A Q330 has a Reduced Packet Memory error	stalled	N4 Network	koliver (Kenneth Oliver)	0	koliver (Kenneth Oliver)	Tue Mar 23 17:37:34 2021	4 months ago	3 months ago			K43A
+19926	N4 – 545B Q330 (SR) 3 – Channel shows Packet Memory Error. 	open	N4 Network	koliver (Kenneth Oliver)	0	koliver (Kenneth Oliver)	Thu Apr 15 15:41:32 2021	3 months ago	3 months ago			545B
+19494	US_LONY- intermittent Outages  2021-01-20 (020) 15:54:17 UTC	new	ANSS-backbone		1		Wed Jan 20 14:39:14 2021	6 months ago	3 months ago	LONY		
+20076	QSPA Data Outage Day 110, 2021	new	GSN	gsn_opadmin	1	aalejandro (Alexis Alejandro)	Wed Apr 21 09:44:46 2021	3 months ago	3 months ago		QSPA	
+20075	LSZ - DC Power Issue	new	GSN	<kpersefield@contractor.usgs.gov>	1	kpersefield (Kyle Persefield)	Wed Apr 21 09:43:37 2021	3 months ago	3 months ago		LSZ	
+20061	Trillium Compact 006028 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 08:08:38 2021	3 months ago	3 months ago		Other	
+20060	Trillium Compact 006027 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 08:07:21 2021	3 months ago	3 months ago		Other	
+20059	Trillium Compact 006016 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 08:03:47 2021	3 months ago	3 months ago		Other	
+20058	Trillium Compact 006015 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 08:02:41 2021	3 months ago	3 months ago		Other	
+20057	Trillium 240  000602 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 08:01:11 2021	3 months ago	3 months ago		Other	
+20053	STS-5A-120  130888 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:49:40 2021	3 months ago	3 months ago		Other	
+20052	STS-2.5 Host box 110803 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:48:02 2021	3 months ago	3 months ago		Other	
+20051	STS-2.5 Host box 011126 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:46:50 2021	3 months ago	3 months ago		Other	
+20050	STS-2.5 Host box 011005 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:45:42 2021	3 months ago	3 months ago		Other	
+20049	STS-2.5 Host box 011035 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:44:27 2021	3 months ago	3 months ago		Other	
+20048	STS-2.5 Host box 011026 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:43:06 2021	3 months ago	3 months ago		Other	
+20047	STS-2.5 Host box 151043 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:41:53 2021	3 months ago	3 months ago		Other	
+20046	STS-2.5 Host box 161009 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:40:39 2021	3 months ago	3 months ago		Other	
+20045	STS-2 SG 120904 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:39:16 2021	3 months ago	3 months ago		Other	
+20044	STS-2 SG 50937 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:38:04 2021	3 months ago	3 months ago		Other	
+20043	STS-2 SG 50914 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:36:47 2021	3 months ago	3 months ago		Other	
+20042	STS-2 SG 60734 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:35:18 2021	3 months ago	3 months ago		Other	
+20041	STS-2 SG 30718 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:34:07 2021	3 months ago	3 months ago		Other	
+20040	STS-2 Host Box 2014141 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:32:35 2021	3 months ago	3 months ago		Other	
+20039	STS-2 Host Box 19125 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:31:21 2021	3 months ago	3 months ago		Other	
+20038	STS-2 Host Box 120904	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:30:03 2021	3 months ago	3 months ago		Other	
+20037	STS-2 Host Box 120901 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:28:45 2021	3 months ago	3 months ago		Other	
+20036	STS-2 Host Box 70125 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:27:25 2021	3 months ago	3 months ago		Other	
+20035	STS-2 Host Box 50955	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:26:14 2021	3 months ago	3 months ago		Other	
+20033	STS-2 Host Box 11708	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:23:53 2021	3 months ago	3 months ago		Other	
+20032	STS-2 Host Box 70838 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Tue Apr 20 07:20:35 2021	3 months ago	3 months ago		Other	
+20031	VBMS: (00) STS2 Vertical component LP pulsing appeared April 17th, 12:06 UTC	new	ANSS-backbone	Nobody in particular	1	aholcomb (Andrew Holcomb)	Mon Apr 19 18:12:26 2021	3 months ago	3 months ago	VBMS		
+20030	MA2 Episensor (20) Vertical component no longer recording ground motion	new	GSN	gsn_opadmin	1	aholcomb (Andrew Holcomb)	Mon Apr 19 17:26:42 2021	3 months ago	3 months ago		MA2	
+19977	STS-2 HG  S/N 39910 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:36:45 2021	3 months ago	3 months ago		Other	
+19976	STS-2 HG  S/N 99434 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:35:35 2021	3 months ago	3 months ago		Other	
+19975	STS-2 HG  S/N 99431	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:34:24 2021	3 months ago	3 months ago		Other	
+19974	STS-2 HG  S/N 60136 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:33:14 2021	3 months ago	3 months ago		Other	
+19973	STS-1H/VBB S/N 79403 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:31:43 2021	3 months ago	3 months ago		Other	
+19972	STS-1H/VBB S/N 88403 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:30:28 2021	3 months ago	3 months ago		Other	
+19971	STS-1H/VBB S/N 38527 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:29:14 2021	3 months ago	3 months ago		Other	
+19970	STS-1H/VBB S/N 38522 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:28:00 2021	3 months ago	3 months ago		Other	
+19969	STS-1H/VBB S/N 28735 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:26:49 2021	3 months ago	3 months ago		Other	
+19968	STS-1H/VBB S/N 49904 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:25:27 2021	3 months ago	3 months ago		Other	
+19967	STS-1H/VBB S/N 39505 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:24:06 2021	3 months ago	3 months ago		Other	
+19966	STS-1H/VBB S/N 39505 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:22:44 2021	3 months ago	3 months ago		Other	
+19965	STS-1H/VBB S/N 79306 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:21:33 2021	3 months ago	3 months ago		Other	
+19964	STS-1H/VBB S/N 48545 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:20:15 2021	3 months ago	3 months ago		Other	
+19963	STS-1H/VBB S/N 109108 needs testing per the database	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:18:51 2021	3 months ago	3 months ago		Other	
+19962	STS-1H/VBB S/N 109101 needs testing per the database	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:17:01 2021	3 months ago	3 months ago		Other	
+19961	STS-1H/VBB S/N 48522 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:15:48 2021	3 months ago	3 months ago		Other	
+19959	STS-1H/VBB S/N 59516 needs testing per the database	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:14:28 2021	3 months ago	3 months ago		Other	
+19958	STS-1H/VBB S/N 29252 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:13:04 2021	3 months ago	3 months ago		Other	
+19957	STS-1H/VBB S/N 48555	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:11:43 2021	3 months ago	3 months ago		Other	
+19956	STS-1H/VBB S/N 48543	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:04:34 2021	3 months ago	3 months ago		Other	
+19954	STS-1H/VBB S/N 48542 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:02:41 2021	3 months ago	3 months ago		Other	
+19953	STS-1H/VBB S/N 58404	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 15:01:20 2021	3 months ago	3 months ago		Other	
+19952	STS-1H/VBB S/N 48552 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 14:59:48 2021	3 months ago	3 months ago		Other	
+19951	STS-1H/VBB S/N 69409	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 14:58:15 2021	3 months ago	3 months ago		Other	
+19950	STS-1H/VBB S/N 69410 	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 14:55:53 2021	3 months ago	3 months ago		Other	
+19949	STS-1H/VBB S/N  69312	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 14:54:10 2021	3 months ago	3 months ago		Other	
+19948	STS-1H/VBB S/N 89113	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 14:52:23 2021	3 months ago	3 months ago		Other	
+19947	GS13 S/N 259	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 14:50:13 2021	3 months ago	3 months ago		Other	
+19946	GS13 S/N 1563	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 14:48:32 2021	3 months ago	3 months ago		Other	
+19945	GS13 S/N 1562 needs testing	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Mon Apr 19 14:46:49 2021	3 months ago	3 months ago		Other	
+19937	N4 – U49A, Q330’s Internal Battery Dead 	open	N4 Network	koliver (Kenneth Oliver)	0	koliver (Kenneth Oliver)	Sat Apr 17 16:45:55 2021	3 months ago	3 months ago			U49A
+18296	N4 – I45A Q330SR shows Reduced Packet Memory	stalled	N4 Network	<koliver@contractor.usgs.gov>	0	koliver (Kenneth Oliver)	Wed May 13 11:42:03 2020	1 year ago	3 months ago			I45A
+19933	OTAV STS-1 H2 overdamped response	new	GSN	gsn_opadmin	1	tstorm (Tyler Storm)	Fri Apr 16 11:27:19 2021	3 months ago	3 months ago		OTAV	
+19932	Slate S/N 401	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Fri Apr 16 11:05:53 2021	3 months ago	3 months ago		Other	
+18265	N4 – 451A Q330SR shows Packet Memory Error.	stalled	N4 Network	<koliver@contractor.usgs.gov>	0	koliver (Kenneth Oliver)	Mon May 11 15:10:03 2020	1 year ago	3 months ago			451A
+19925	T360-SV1  S/N 000118	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Thu Apr 15 14:07:47 2021	3 months ago	3 months ago		Other	
+19924	T360-SV1  S/N 000117	new	GSN	gsn_opadmin	1	wmaggio (Wendy Maggio)	Thu Apr 15 14:06:19 2021	3 months ago	3 months ago		Other	
+19921	T360-SV1  S/N 000114	new	GSN	gsn_opadmin	4	wmaggio (Wendy Maggio)	Thu Apr 15 13:22:14 2021	3 months ago	3 months ago		Other	
+19922	T360-SV1  S/N 000115	new	GSN	gsn_opadmin	4	wmaggio (Wendy Maggio)	Thu Apr 15 13:24:30 2021	3 months ago	3 months ago		Other	
+6300	MA2 STS-1s Lowered LP Responses	open	GSN	dwilson (David C Wilson)	3	tstorm (Tyler Storm)	Wed Feb 06 15:30:00 2013	8 years ago	3 months ago		MA2	
+19919	MA2 STS-1 Z	new	GSN	gsn_opadmin	1	tstorm (Tyler Storm)	Thu Apr 15 13:08:18 2021	3 months ago	3 months ago		MA2	
+19459	KIP: 60 (STS1) North Sensor LP pulse every 2-3 hours	new	GSN	ekromer (Ted Kromer)	1	aholcomb (Andrew Holcomb)	Fri Jan 08 17:07:56 2021	7 months ago	4 months ago		KIP	
+19774	DAV 10 (T240) pulsing primarily on Z and 1 components	open	GSN	gvallo (Gilbert Vallo)	1	aholcomb (Andrew Holcomb)	Mon Mar 22 17:05:42 2021	4 months ago	4 months ago		DAV	
+19729	TSUM multiple reboots starting March 12th (071), 2021	open	GSN	gvallo (Gilbert Vallo)	1	aholcomb (Andrew Holcomb)	Mon Mar 15 18:41:43 2021	4 months ago	4 months ago		TSUM	
+19852	KMBO STS-1 H2 has a way overdamped LP corner	open	GSN	kpersefield (Kyle Persefield)	1	tstorm (Tyler Storm)	Thu Apr 01 16:30:46 2021	4 months ago	4 months ago		KMBO	
+19671	RAO microbarograph channels dead	open	GSN	ekromer (Ted Kromer)	1	tstorm (Tyler Storm)	Fri Mar 05 09:52:10 2021	5 months ago	4 months ago		RAO	
+19893	OTAV Pulsing on STS1 ?H1	new	GSN	gsn_opadmin	1	aalejandro (Alexis Alejandro)	Mon Apr 12 13:59:19 2021	4 months ago	4 months ago		OTAV	
+17107	N4_WHTX_00: STS2 HZ Component showing signs of possible failure	open	N4 Network	aholcomb (Andrew Holcomb)	0	aholcomb (Andrew Holcomb)	Wed Sep 11 12:17:37 2019	2 years ago	4 months ago			WHTX
+19884	N4 – R61A, Q330’s Internal Battery Dead 	open	N4 Network	koliver (Kenneth Oliver)	0	koliver (Kenneth Oliver)	Wed Apr 07 16:33:04 2021	4 months ago	4 months ago			R61A
+19882	MA2 - Intermittent and Ongoing Data Gaps	new	GSN	gsn_opadmin	1	aalejandro (Alexis Alejandro)	Tue Apr 06 15:55:31 2021	4 months ago	4 months ago		MA2	
+18163	N4_ABTX Horizontal Pulsing 	stalled	N4 Network	aalejandro (Alexis Alejandro)	0		Wed Apr 15 09:49:33 2020	1 year ago	4 months ago			ABTX
+19877	US_WMOK: convert to temporary solar/cell site	open	ANSS-backbone	sploetz (Steve Ploetz)	1	ewolin (Emily Wolin)	Mon Apr 05 12:23:41 2021	4 months ago	4 months ago	WMOK		
+1106	MACI -- Data continuity issues	open	GSN	tstorm (Tyler Storm)	2		Wed Jun 24 09:18:36 2009	12 years ago	4 months ago		MACI	
+18180	KONO: STS1 vacuum lost on Z component on 2020, Feb. 10 (040) 12:50 UTC	open	GSN	jander (Jared Anderson)	1	aholcomb (Andrew Holcomb)	Tue Apr 21 10:20:06 2020	1 year ago	4 months ago		KONO	
+19850	N4 – Q52A, Q330’s Internal Battery Dead	open	N4 Network	koliver (Kenneth Oliver)	0	koliver (Kenneth Oliver)	Thu Apr 01 16:11:50 2021	4 months ago	4 months ago			Q52A
+11371	KEV: Horizontal Pulsing	open	GSN	ekromer (Ted Kromer)	1		Fri Apr 01 11:01:22 2016	5 years ago	4 months ago		KEV	
+5026	KBS coherent noise on STS-2	open	GSN	jander (Jared Anderson)	4		Tue Mar 06 11:59:33 2012	9 years ago	4 months ago		KBS	
+17501	GNI_31: LDO channel pulsing multiple times an hour	open	GSN	aholcomb (Andrew Holcomb)	1	aholcomb (Andrew Holcomb)	Mon Nov 18 16:10:42 2019	2 years ago	4 months ago		GNI	
+18824	COR STS-1 (60) - East vacuum loss after large pulse occurring on both horizontal sensors	stalled	GSN	koliver (Kenneth Oliver)	1	aholcomb (Andrew Holcomb)	Tue Aug 18 18:43:47 2020	11 months ago	4 months ago		COR	
+18761	152A - Multiple station outages until March 26th when comms dropped out entirely	new	N4 Network	n4_opadmin	0		Mon Aug 17 09:54:56 2020	11 months ago	4 months ago			152A
+17533	RCBR - Equipment Testing and Shipment	open	GSN	jzmaharrey (Joseph Zebulon Maharrey)	1	jander (Jared Anderson)	Fri Nov 22 11:23:25 2019	2 years ago	4 months ago		RCBR	
+19159	NE VT1 Very high noise on vertical component 	open	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Thu Oct 15 11:58:52 2020	9 months ago	4 months ago	NE-VT1		
+18375	US_BOZ: STS2 large amplitude spikes on Z channel	open	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Wed May 20 13:09:00 2020	1 year ago	4 months ago	BOZ		
+19806	GSN - ANMO, GNI, PMSA, QSPA, SJG - wrong location code for LEA door alarm.	open	GSN	jander (Jared Anderson)	1	dwilson (David C Wilson)	Fri Mar 26 11:39:43 2021	4 months ago	4 months ago		GSN	
+19804	KIEV:  Replace Slate CF Drives	new	GSN	ttelesha (Tom Telesha)	1	ttelesha (Tom Telesha)	Fri Mar 26 09:40:17 2021	4 months ago	4 months ago		KIEV	
+19788	N4 – L40A, Q330’s Internal Battery Dead 	open	N4 Network	koliver (Kenneth Oliver)	0	koliver (Kenneth Oliver)	Wed Mar 24 11:40:44 2021	4 months ago	4 months ago			L40A
+18009	IW-FLWY 00_*H2 dead	open	ANSS-backbone	Nobody in particular	1	lsandoval (Leo Sandoval)	Tue Feb 18 11:44:09 2020	1 year ago	4 months ago	IW-FLWY		
+15535	NE-WES - T120 Data Gaps	open	ANSS-backbone	anss_opadmin	1	aalejandro (Alexis Alejandro)	Wed Nov 07 17:38:52 2018	3 years ago	4 months ago	NE-WES		
+14350	NE-WSPT 20_RT147 broken	new	ANSS-backbone	ewolin (Emily Wolin)	1	lsandoval (Leo Sandoval)	Mon Apr 30 09:29:28 2018	3 years ago	4 months ago	NE-WSPT		
+19394	IW-FXWY - Frequent outages due to Reftek memory or power issue	stalled	ANSS-backbone	jallen (James Allen)	1	jallen (James Allen)	Tue Dec 22 08:35:34 2020	7 months ago	4 months ago	IW-FXWY		
+17500	TARA_10: STS2.5 stopped recording ground motion Nov. 16 (320) - 0938 UTC	open	GSN	kpersefield (Kyle Persefield)	1	aholcomb (Andrew Holcomb)	Mon Nov 18 15:08:58 2019	2 years ago	4 months ago		TARA	
+19680	TEIG - Failed Equipment Returns	new	GSN	ekromer (Ted Kromer)	1	kpersefield (Kyle Persefield)	Tue Mar 09 12:38:24 2021	5 months ago	4 months ago		TEIG	
+17147	N4_F42A - 31_LDO Failure	stalled	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Tue Sep 17 15:25:16 2019	2 years ago	4 months ago			F42A
+19733	QIZ STS-1 Z vacuum loss 	open	GSN	ekromer (Ted Kromer)	1	tstorm (Tyler Storm)	Tue Mar 16 10:14:16 2021	4 months ago	4 months ago		QIZ	
+18682	JFWS latency issues causing data gaps on both sensors in tr1 and msd	open	ANSS-backbone	anss_opadmin	1		Tue Jul 28 16:24:58 2020	1 year ago	4 months ago	JFWS		
+19746	RCBR (10) - CMG-3T H2 component has 1/2 double ended output	new	GSN	gsn_opadmin	1	aholcomb (Andrew Holcomb)	Tue Mar 16 18:01:29 2021	4 months ago	4 months ago		RCBR	
+19744	N4 – H62A, Q330’s Internal Battery Dead 	open	N4 Network	koliver (Kenneth Oliver)	0	koliver (Kenneth Oliver)	Tue Mar 16 16:35:37 2021	4 months ago	4 months ago			H62A
+19740	N4 – G62A, Q330’s Internal Battery Dead	open	N4 Network	koliver (Kenneth Oliver)	0	koliver (Kenneth Oliver)	Tue Mar 16 15:10:03 2021	4 months ago	4 months ago			G62A
+19281	DWPF: T120 (10) ?H2  - 1/2 Double Ended Output 	new	GSN	gsn_opadmin	1	aholcomb (Andrew Holcomb)	Thu Nov 19 16:17:44 2020	8 months ago	4 months ago		DWPF	
+18949	LKWY down since 2020, Dec. 9 (344) 20:57 UTC    	open	ANSS-backbone	anss_opadmin	1		Tue Aug 25 16:27:48 2020	11 months ago	5 months ago	LKWY		
+19072	SLBS Network loss on 9/20/2020	open	GSN	jander (Jared Anderson)	1	ekromer (Ted Kromer)	Tue Sep 22 10:02:47 2020	10 months ago	5 months ago		SLBS	
+13241	MDJ overdamped LP corner STS-1 H2	open	GSN	kpersefield (Kyle Persefield)	1	tstorm (Tyler Storm)	Thu Sep 07 09:07:32 2017	4 years ago	5 months ago		MDJ	
+12129	BJT STS-1 H1 pulses	open	GSN	kpersefield (Kyle Persefield)	1	tstorm (Tyler Storm)	Wed Oct 26 08:08:52 2016	5 years ago	5 months ago		BJT	
+6725	MDJ STS-1 Hortizontals pulsing 	open	GSN	kpersefield (Kyle Persefield)	4	lsandoval (Leo Sandoval)	Wed May 15 15:27:39 2013	8 years ago	5 months ago		MDJ	
+19699	N4 – 154A, Q330’s Internal Battery Dead 	open	N4 Network	koliver (Kenneth Oliver)	0	koliver (Kenneth Oliver)	Thu Mar 11 14:14:33 2021	5 months ago	5 months ago			154A
+19672	HDIL:  Intermittent communications from Cell modem	new	ANSS-backbone	sploetz (Steve Ploetz)	1	sploetz (Steve Ploetz)	Fri Mar 05 10:11:01 2021	5 months ago	5 months ago	HDIL		
+19689	N4-I49A:  No communications with Q330 (MI)	new	N4 Network	sploetz (Steve Ploetz)	0	sploetz (Steve Ploetz)	Wed Mar 10 05:08:46 2021	5 months ago	5 months ago			I49A
+19662	US_MVCO: re-roof vault	open	ANSS-backbone	anss_opadmin	1	ewolin (Emily Wolin)	Tue Mar 02 15:41:55 2021	5 months ago	5 months ago	MVCO		
+18692	GSN - replace feedhorn lenses	open	GSN	davidjones (David Kyle Jones)	1	jander (Jared Anderson)	Fri Jul 31 12:04:16 2020	12 months ago	5 months ago		GSN	
+19678	K57A (00): STS2 showing large pulses indicating a potential sensor failure	new	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Mon Mar 08 17:59:46 2021	5 months ago	5 months ago			K57A
+19677	HRV – Q330’s Internal Battery are Dead 	open	GSN	koliver (Kenneth Oliver)	1	koliver (Kenneth Oliver)	Mon Mar 08 14:14:58 2021	5 months ago	5 months ago		HRV	
+19452	PMG - intermittent VSAT link	open	GSN	ekromer (Ted Kromer)	1	jander (Jared Anderson)	Wed Jan 06 08:36:23 2021	7 months ago	5 months ago		PMG	
+19264	PMG (10) CMG3T - Dead instrument 	new	GSN	gsn_opadmin	1	aholcomb (Andrew Holcomb)	Mon Nov 16 18:37:29 2020	8 months ago	5 months ago		PMG	
+16549	MAJO - STS-1 Centering and Calibration Problem	open	GSN	ekromer (Ted Kromer)	1	aholcomb (Andrew Holcomb)	Tue Jun 11 15:09:52 2019	2 years ago	5 months ago		MAJO	
+16636	N4_G62A - 1/2 double-ended output on vertical	open	N4 Network	n4_opadmin	0		Tue Jun 25 11:07:17 2019	2 years ago	5 months ago			G62A
+19658	FURI - Failed Equipment Returns	new	GSN	<kpersefield@contractor.usgs.gov>	1	kpersefield (Kyle Persefield)	Tue Mar 02 11:15:59 2021	5 months ago	5 months ago		FURI	
+19657	GNI - Failed Equipment Returns	new	GSN	ekromer (Ted Kromer)	1	kpersefield (Kyle Persefield)	Tue Mar 02 11:08:33 2021	5 months ago	5 months ago		GNI	
+19652	LSZ - Failed Equipment Returns	open	GSN	<kpersefield@contractor.usgs.gov>	1	kpersefield (Kyle Persefield)	Tue Mar 02 10:26:27 2021	5 months ago	5 months ago		LSZ	
+19655	LCO - Failed Equipment Returns	new	GSN	gvallo (Gilbert Vallo)	1	kpersefield (Kyle Persefield)	Tue Mar 02 10:56:19 2021	5 months ago	5 months ago		LCO	
+19654	PTCN - Failed Equipment Returns	new	GSN	<kpersefield@contractor.usgs.gov>	1	kpersefield (Kyle Persefield)	Tue Mar 02 10:42:28 2021	5 months ago	5 months ago		PTCN	
+19653	KBS - Failed Equipment Returns	new	GSN	<kpersefield@contractor.usgs.gov>	1	kpersefield (Kyle Persefield)	Tue Mar 02 10:34:58 2021	5 months ago	5 months ago		KBS	
+19650	ADK - Failed Equipment Returns	new	GSN	koliver (Kenneth Oliver)	1	kpersefield (Kyle Persefield)	Tue Mar 02 10:16:26 2021	5 months ago	5 months ago		ADK	
+19649	IW-MOOW:  Loss of communications	new	ANSS-backbone	sploetz (Steve Ploetz)	1	sploetz (Steve Ploetz)	Tue Mar 02 09:10:38 2021	5 months ago	5 months ago	IW-MOOW		
+19242	N4_250A: Intermittent clock quality issues since 2020-303	open	N4 Network	aholcomb (Andrew Holcomb)	0	ewolin (Emily Wolin)	Fri Nov 06 15:57:12 2020	9 months ago	5 months ago			250A
+18740	GRFO Increase in LP pulsing beginning on June 20, 2020 (172)	stalled	GSN	aholcomb (Andrew Holcomb)	1		Tue Aug 11 15:00:46 2020	12 months ago	5 months ago		GRFO	
+17589	MAJO_60: M2166 H1 Channel lost capture Dec 2 (336), 01:05 UTC. Unable to be recentered	open	GSN	aholcomb (Andrew Holcomb)	1	aholcomb (Andrew Holcomb)	Tue Dec 03 10:12:31 2019	2 years ago	5 months ago		MAJO	
+15261	N4_M63A - CMG3T pulsing on east component from Day 272-274	open	N4 Network	aholcomb (Andrew Holcomb)	0		Tue Oct 09 16:05:36 2018	3 years ago	5 months ago			M63A
+19643	PMSA – Router configuration file changes	open	GSN	ttelesha (Tom Telesha)	1	koliver (Kenneth Oliver)	Mon Mar 01 08:12:29 2021	5 months ago	5 months ago		PMSA	
+19641	WUAZ Clock Quality frequently drops to 10%	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Fri Feb 26 13:28:51 2021	5 months ago	5 months ago	WUAZ		
+17008	INCN - STS1 VYZ and VY1 low vacuum levels	open	GSN	kpersefield (Kyle Persefield)	1		Wed Aug 28 15:15:10 2019	2 years ago	5 months ago		INCN	
+18195	N4_N62A – Baler not recording data. 	open	N4 Network	<koliver@contractor.usgs.gov>	0	koliver (Kenneth Oliver)	Thu Apr 23 14:30:54 2020	1 year ago	5 months ago			N62A
+19624	QSPA: Build and Ship new spare Slate for QSPA to ship late 2021	open	GSN	ekromer (Ted Kromer)	1	ekromer (Ted Kromer)	Thu Feb 25 08:46:55 2021	5 months ago	5 months ago		QSPA	
+19596	LSZ - No Data Since 2021-02-10	open	GSN	kpersefield (Kyle Persefield)	1	jander (Jared Anderson)	Thu Feb 18 11:36:15 2021	5 months ago	5 months ago		LSZ	
+11866	KNTN - No Telemetry Data	stalled	GSN	kpersefield (Kyle Persefield)	1	jander (Jared Anderson)	Thu Aug 11 16:33:13 2016	5 years ago	5 months ago		KNTN	
+12301	KNTN - Station Visit Planning	new	GSN	kpersefield (Kyle Persefield)	1	jander (Jared Anderson)	Wed Dec 14 09:39:43 2016	5 years ago	5 months ago		KNTN	
+9047	KOWA - now 10_STS2 Problems	stalled	GSN	kpersefield (Kyle Persefield)	1	lsandoval (Leo Sandoval)	Tue Sep 30 10:39:12 2014	7 years ago	5 months ago		KOWA	
+11808	KNTN: Loss of Data - Digitizer Noise	stalled	GSN	kpersefield (Kyle Persefield)	1		Tue Aug 02 10:18:53 2016	5 years ago	5 months ago		KNTN	
+18458	ADK - 60 VY1 - STS1 Vacuum lost Feb 2 (033). Data unaffected	stalled	GSN	kpersefield (Kyle Persefield)	1	aholcomb (Andrew Holcomb)	Mon Jun 01 17:51:02 2020	1 year ago	5 months ago		ADK	
+16900	FURI - maintenance visit action items	new	GSN	kpersefield (Kyle Persefield)	1	jander (Jared Anderson)	Wed Aug 07 10:53:35 2019	2 years ago	5 months ago		FURI	
+19613	PAB - Falcon Inop	new	GSN	ekromer (Ted Kromer)	1	jander (Jared Anderson)	Tue Feb 23 08:10:12 2021	5 months ago	5 months ago		PAB	
+19604	N51A: Large pulse occurred on Feb. 17, 2021 causing increase in noise of H1 component.	new	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Mon Feb 22 17:43:46 2021	5 months ago	5 months ago			N51A
+15994	MIDW: Router, Slate, and Q330 are inaccessible	open	GSN	ttelesha (Tom Telesha)	1	ekromer (Ted Kromer)	Wed Mar 13 12:21:10 2019	2 years ago	5 months ago		MIDW	
+18823	DAV Episensor increase in noise starting May 11th, 2020	open	GSN	gvallo (Gilbert Vallo)	1	aholcomb (Andrew Holcomb)	Tue Aug 18 17:40:43 2020	11 months ago	5 months ago		DAV	
+16977	N4_T45B - Episensor N component bad	stalled	N4 Network	jvpatton (Jason Patton)	0		Wed Aug 21 13:15:37 2019	2 years ago	5 months ago			T45B
+19495	Physical locations of GSN assets listed as "SPARE"	open	GSN	jvpatton (Jason Patton)	1	ggyure (Gary Gyure)	Wed Jan 20 15:57:04 2021	6 months ago	5 months ago		Other	
+19594	GS_FSUO - Ship STS-2, cable and solar jig for AZI Check	new	ANSS-backbone	scroberts (Steve Roberts)	1	tstorm (Tyler Storm)	Wed Feb 17 13:29:27 2021	5 months ago	5 months ago	GS-FSUO		
+19592	KMBO – Q330’s Internal Battery are Dead 	open	GSN	<koliver@contractor.usgs.gov>	1	koliver (Kenneth Oliver)	Wed Feb 17 11:19:48 2021	5 months ago	5 months ago		KMBO	
+17401	ANMO building needs front room power backup	open	GSN	ekromer (Ted Kromer)	3	aringler (Adam Ringler)	Fri Nov 01 11:48:32 2019	2 years ago	5 months ago		ANMO	
+16858	TUC: Need to replace and upgrade the Cell Modem at TUC	open	GSN	<koliver@contractor.usgs.gov>	1	ekromer (Ted Kromer), koliver (Kenneth Oliver)	Fri Aug 02 16:05:20 2019	2 years ago	5 months ago		TUC	
+19331	US_VBMS - STS2 broken and needs to be replaced	new	ANSS-backbone	anss_opadmin	1		Thu Dec 03 08:50:20 2020	8 months ago	5 months ago	VBMS		
+15604	RCBR - Repair/Replace Fence and Gate	stalled	GSN	ggyure (Gary Gyure)	1	jander (Jared Anderson)	Mon Nov 19 17:42:26 2018	3 years ago	5 months ago		RCBR	
+18596	New Drawings for Hughes VSAT Power Supply ASL Build	open	GSN	vstoup (Vernon Stoup)	1	gvallo (Gilbert Vallo)	Mon Jul 13 10:18:32 2020	1 year ago	5 months ago		Other	
+12418	SDV 00_STS1 E300 Failure	open	GSN	jander (Jared Anderson)	1	lsandoval (Leo Sandoval), tstorm (Tyler Storm)	Fri Jan 20 12:03:25 2017	5 years ago	5 months ago		SDV	
+12975	KOWA - No Telemetry Data	stalled	GSN	jander (Jared Anderson)	1	ambaker (Adam Baker)	Mon Jul 10 11:38:01 2017	4 years ago	5 months ago		KOWA	
+17248	BCIP - 00-STS2 No longer operational, Oct 8th, 2020.	open	GSN	ekromer (Ted Kromer)	1		Fri Oct 04 12:37:12 2019	2 years ago	5 months ago		BCIP	
+18985	GRGR - LIO, LKO, LDO pulsing then Failure	open	ANSS-backbone	gsn_opadmin	1	aholcomb (Andrew Holcomb)	Tue Sep 01 16:34:26 2020	11 months ago	6 months ago	CU-GRGR		
+19577	ANTO – Q330’s Internal Battery are Dead 	open	GSN	<koliver@contractor.usgs.gov>	1	koliver (Kenneth Oliver)	Fri Feb 12 11:13:51 2021	6 months ago	6 months ago		ANTO	
+16701	ANTO microbarograph dead	open	GSN	koliver (Kenneth Oliver)	1	tstorm (Tyler Storm)	Thu Jul 11 12:18:41 2019	2 years ago	6 months ago		ANTO	
+18709	SDV - Baler 14's inoperable	open	GSN	koliver (Kenneth Oliver)	1	jander (Jared Anderson)	Wed Aug 05 08:05:21 2020	12 months ago	6 months ago		SDV	
+6362	PTGA: 4Hz ringing on STS-2	stalled	GSN		4		Fri Feb 22 14:08:44 2013	8 years ago	6 months ago		PTGA	
+13956	PMSA 20_EpiSensor LN1 High Noise	stalled	GSN	jzmaharrey (Joseph Zebulon Maharrey)	1	lsandoval (Leo Sandoval)	Wed Feb 07 13:40:04 2018	3 years ago	6 months ago		PMSA	
+14507	MAJO Horizontals Pulsing	stalled	GSN	gsn_opadmin	1	aringler (Adam Ringler)	Thu May 31 11:47:29 2018	3 years ago	6 months ago		MAJO	
+17614	KIP: CellWatch battery monitor not communicating with the Falcon	stalled	GSN	gsn_opadmin	1	ekromer (Ted Kromer)	Fri Dec 06 10:40:19 2019	2 years ago	6 months ago		KIP	
+12437	FURI - Falcon/DC Distribution Box - DC Transducer failed or disconnected	stalled	GSN	ekromer (Ted Kromer)	1	jander (Jared Anderson)	Wed Jan 25 09:12:51 2017	5 years ago	6 months ago		FURI	
+16533	CHTO 00_STS6 pulsing noted on *H2	open	GSN	gsn_opadmin	1	lsandoval (Leo Sandoval)	Mon Jun 10 14:29:56 2019	2 years ago	6 months ago		CHTO	
+19171	BBSR: Slate CF Card failure	open	GSN	gsn_opadmin	1	ekromer (Ted Kromer)	Tue Oct 20 16:41:58 2020	9 months ago	6 months ago		BBSR	
+19345	AFI: Replace Cisco 2800 router	stalled	GSN	ekromer (Ted Kromer)	1	ekromer (Ted Kromer)	Tue Dec 08 14:25:01 2020	8 months ago	6 months ago		AFI	
+16962	BCIP: LIO, LDO, and LKO channels pulsing or not showing data, Now FAILED	stalled	GSN	ekromer (Ted Kromer)	1	aholcomb (Andrew Holcomb)	Mon Aug 19 17:33:31 2019	2 years ago	6 months ago		BCIP	
+16291	GSN: STS-2's in the GSN Shop that require Refurbish and testing	open	GSN	ekromer (Ted Kromer)	1	ekromer (Ted Kromer)	Thu Apr 25 10:35:33 2019	2 years ago	6 months ago		GSN	
+10148	KNTN - no Falcon SOH data	stalled	GSN	ekromer (Ted Kromer)	5	jander (Jared Anderson)	Mon Jun 29 09:04:19 2015	6 years ago	6 months ago		KNTN	
+18348	QSPA: Falcon Not Operational since Jan 26 2020	stalled	GSN	ekromer (Ted Kromer)	1	ekromer (Ted Kromer)	Mon May 18 17:21:52 2020	1 year ago	6 months ago		QSPA	
+18104	RAO: Island will be evacuated of all workers in April 2020 due to COVID-19	open	GSN	ekromer (Ted Kromer)	1	ekromer (Ted Kromer)	Fri Mar 20 09:54:25 2020	1 year ago	6 months ago		RAO	
+13561	RCBR 10_CMG3TB No ReCenter No Calibration control (?H2 inoperative)	stalled	GSN	ekromer (Ted Kromer)	1	lsandoval (Leo Sandoval)	Mon Nov 27 11:15:13 2017	4 years ago	6 months ago		RCBR	
+11594	SAML: Falcon Unreachable	stalled	GSN	ekromer (Ted Kromer)	1	ekromer (Ted Kromer)	Thu Jun 02 12:32:58 2016	5 years ago	6 months ago		SAML	
+9466	SDV: Cannot communicate with Falcon	stalled	GSN	ekromer (Ted Kromer)	1	ekromer (Ted Kromer)	Tue Jan 20 15:20:34 2015	7 years ago	6 months ago		SDV	
+13131	TEIG - Maintenance Visit Action Items	stalled	GSN	ekromer (Ted Kromer)	1	jander (Jared Anderson)	Wed Aug 16 07:32:42 2017	4 years ago	6 months ago		TEIG	
+13625	TEIG high noise on the 60 CMG3-T-B horizontals	open	GSN	ekromer (Ted Kromer)	1		Fri Dec 08 16:06:58 2017	4 years ago	6 months ago		TEIG	
+12942	TEIG: Exide/Hindle charger has failed and needs replacement	stalled	GSN	ekromer (Ted Kromer)	1	ekromer (Ted Kromer)	Thu Jun 29 09:14:50 2017	4 years ago	6 months ago		TEIG	
+12946	TEIG: Falcon failure, needs replacement	stalled	GSN	ekromer (Ted Kromer)	1	ekromer (Ted Kromer)	Thu Jun 29 09:48:59 2017	4 years ago	6 months ago		TEIG	
+12944	TEIG: Slate Failure, requires replacement	stalled	GSN	ekromer (Ted Kromer)	1	ekromer (Ted Kromer)	Thu Jun 29 09:47:07 2017	4 years ago	6 months ago		TEIG	
+18983	TRIS: Ship spare GPS antennas, GPS antenna cables, and CF cards	open	GSN	ekromer (Ted Kromer)	1	ekromer (Ted Kromer)	Tue Sep 01 13:53:19 2020	11 months ago	6 months ago		TRIS	
+15640	TRQA 10_T120PHQ Coherent HORIZONATAL Spiking 	stalled	GSN	ekromer (Ted Kromer)	1	lsandoval (Leo Sandoval)	Tue Nov 27 13:47:49 2018	3 years ago	6 months ago		TRQA	
+10904	TRQA KS Failure day 310	stalled	GSN	ekromer (Ted Kromer)	1	lsandoval (Leo Sandoval)	Wed Dec 02 11:16:17 2015	6 years ago	6 months ago		TRQA	
+13080	TRQA: Maintenance trip to replace the KS54000	open	GSN	ekromer (Ted Kromer)	1	ekromer (Ted Kromer)	Tue Aug 08 17:02:20 2017	4 years ago	6 months ago		TRQA	
+11393	GSN - Cable Cutter Devolpment	open	GSN	davidjones (David Kyle Jones)	1	jander (Jared Anderson)	Tue Apr 05 16:08:53 2016	5 years ago	6 months ago		GSN	
+15759	GUMO - T360 pulsing on all components	open	GSN	davidjones (David Kyle Jones)	1		Mon Jan 28 16:31:14 2019	3 years ago	6 months ago		GUMO	
+19568	I49A 00 no longer recording ground motion, likely due to tilt	new	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Wed Feb 10 14:22:04 2021	6 months ago	6 months ago			I49A
+19247	US_WRAK (10) STS2HG: High amplitude signals/pulses on the vertical component on Nov 8 (313), 2020	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Mon Nov 09 16:50:19 2020	9 months ago	6 months ago	WRAK		
+19566	EYMN: Data loss on both msd and tr1 on Feb 8 and 9th. More data lost on msd than tr1	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Wed Feb 10 12:50:26 2021	6 months ago	6 months ago	EYMN		
+19544	KIEV:  Replace failed laptop	new	GSN	gsn_opadmin	1	ttelesha (Tom Telesha)	Fri Feb 05 08:58:30 2021	6 months ago	6 months ago		KIEV	
+19458	TUC: replace Slate Drives	new	GSN	gsn_opadmin	1	ttelesha (Tom Telesha)	Fri Jan 08 12:23:41 2021	7 months ago	6 months ago		TUC	
+19515	HKT: Replace Slate Drives	new	GSN	gsn_opadmin	1	ttelesha (Tom Telesha)	Tue Jan 26 14:23:29 2021	6 months ago	6 months ago		HKT	
+19556	TRIS: GPS lock is up and down	open	GSN	ekromer (Ted Kromer)	1	ekromer (Ted Kromer)	Tue Feb 09 13:47:26 2021	6 months ago	6 months ago		TRIS	
+19457	US_DGMT Gain issue on 00 sensor	open	ANSS-backbone	anss_opadmin	1	ewolin (Emily Wolin)	Thu Jan 07 16:15:46 2021	7 months ago	6 months ago	DGMT		
+19554	Core Drilling WI Publishing	new	GSN	yprior (Yolanda Prior)	1	davidjones (David Kyle Jones)	Tue Feb 09 09:25:07 2021	6 months ago	6 months ago		Other	
+19549	GNI STS-1 H1	new	GSN	gsn_opadmin	1	tstorm (Tyler Storm)	Fri Feb 05 13:49:14 2021	6 months ago	6 months ago		GNI	
+19318	WVT: Episensor showing jumps and pulses on LN2. Sign of potential failure.	new	GSN	gsn_opadmin	1	aholcomb (Andrew Holcomb)	Mon Nov 30 12:14:28 2020	8 months ago	6 months ago		WVT	
+19524	LSZ - prepare new sola and stabiline for shipment	new	GSN	<jzmaharrey@contractor.usgs.gov>	1	jzmaharrey (Joseph Zebulon Maharrey)	Thu Jan 28 13:52:42 2021	6 months ago	6 months ago		LSZ	
+19225	F33B - Multiple large 3 component pulsing, - Signs of Failure	new	N4 Network	n4_opadmin	0		Wed Nov 04 09:46:55 2020	9 months ago	6 months ago			F33B
+19521	YAK vertical STS-1 cals	new	GSN	gsn_opadmin	1	tstorm (Tyler Storm)	Wed Jan 27 14:35:24 2021	6 months ago	6 months ago		YAK	
+19278	WI - Pulling Vacuum on a STS-1	new	GSN	yprior (Yolanda Prior)	1		Thu Nov 19 13:47:04 2020	8 months ago	6 months ago		Other	
+19501	STS-5/6 Protection Board Replacement WI	new	GSN	yprior (Yolanda Prior)	1	nvoss (Nick Voss)	Thu Jan 21 12:16:00 2021	6 months ago	6 months ago		Other	
+11500	PTGA: Maintenance trip planning task/parts list	stalled	GSN	ggyure (Gary Gyure)	1	ekromer (Ted Kromer)	Wed May 04 15:31:51 2016	5 years ago	6 months ago		PTGA	
+19485	COLA - Latent Data - Router Issue	open	GSN	ttelesha (Tom Telesha)	1		Tue Jan 19 10:40:17 2021	6 months ago	6 months ago		COLA	
+16554	SAML - No Telemetry Data, low DC power	open	GSN	jander (Jared Anderson)	1	ambaker (Adam Baker)	Wed Jun 12 10:04:57 2019	2 years ago	7 months ago		SAML	
+19456	US_PKME: replace Q330 backup battery	open	ANSS-backbone	Nobody in particular	1	ewolin (Emily Wolin)	Thu Jan 07 13:38:33 2021	7 months ago	7 months ago	PKME		
+19359	N4_154A - Broken Seismometer - Needs replacement	open	N4 Network	n4_opadmin	0		Mon Dec 14 12:34:12 2020	7 months ago	7 months ago			154A
+18087	NE-VT1 requires GPS antenna swap	open	ANSS-backbone	Nobody in particular	1	sploetz (Steve Ploetz)	Mon Mar 16 09:51:30 2020	1 year ago	7 months ago	NE-VT1		
+16755	NE_VT1 -  Need longer Titan cable, currently not connected to *RT130*	open	ANSS-backbone	ewolin (Emily Wolin)	1		Wed Jul 17 10:53:24 2019	2 years ago	7 months ago	NE-VT1		
+15247	IW-PLID - Intermittent power, battery replacement required	open	ANSS-backbone	anss_opadmin	1	aalejandro (Alexis Alejandro), ambaker (Adam Baker)	Tue Oct 09 13:45:29 2018	3 years ago	7 months ago	IW-PLID		
+19390	HDIL: Multiple reboots starting Dec. 7 (342). Issue looks to be ongoing	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Fri Dec 18 15:30:30 2020	7 months ago	7 months ago	HDIL		
+19414	N4_I49A - Real Three Component Site Noise	open	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Mon Dec 28 08:21:02 2020	7 months ago	7 months ago			I49A
+19413	N4_545B - 3 Component Noise 	new	N4 Network	n4_opadmin	0		Mon Dec 28 07:37:44 2020	7 months ago	7 months ago			545B
+19387	WAKE - Slate Q330arch stopped	open	GSN	ttelesha (Tom Telesha)	1	jander (Jared Anderson)	Fri Dec 18 11:04:23 2020	7 months ago	7 months ago		WAKE	
+16015	LCO - Core Drill for STS-6A	stalled	GSN	koliver (Kenneth Oliver)	1	jander (Jared Anderson)	Mon Mar 18 13:17:16 2019	2 years ago	7 months ago		LCO	
+15399	Update all Q330's to firmware 1.150	open	GSN	ekromer (Ted Kromer)	1	dwilson (David C Wilson)	Tue Oct 16 15:26:09 2018	3 years ago	8 months ago		Other	
+19168	US_LONY: Q330 continuously rebooting: Needs replacement	open	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Mon Oct 19 16:58:15 2020	9 months ago	8 months ago	LONY		
+19344	BILL: STS1 (00) Vertical noise very high above 10 seconds after multiple recenters	new	GSN	gsn_opadmin	1	aholcomb (Andrew Holcomb)	Tue Dec 08 13:10:45 2020	8 months ago	8 months ago		BILL	
+19279	WI - Exide/Hindle SCR Control Module PCB Replacement Work Instruction	open	GSN	yprior (Yolanda Prior)	1		Thu Nov 19 13:57:15 2020	8 months ago	8 months ago		Other	
+12628	RCBR - Infrastructure Repairs	new	GSN	kpersefield (Kyle Persefield)	1	kpersefield (Kyle Persefield)	Thu Mar 23 08:18:14 2017	4 years ago	8 months ago		RCBR	
+17223	N4_P48A - CMG3T ?H2 pulsing and noise issues	open	N4 Network	n4_opadmin	0		Tue Oct 01 16:10:26 2019	2 years ago	8 months ago			P48A
+18173	HRV Sensorloc	open	GSN	jander (Jared Anderson)	1	tstorm (Tyler Storm)	Fri Apr 17 16:04:03 2020	1 year ago	8 months ago		HRV	
+18242	L46A - No Data - Station Flooded - Post Hole Retrofit Required	open	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb), jander (Jared Anderson)	Tue May 05 10:17:01 2020	1 year ago	8 months ago			L46A
+13957	RAO 20_EpiSensor Bad LN1 and LN2 Channels	open	GSN	aholcomb (Andrew Holcomb)	1	lsandoval (Leo Sandoval)	Wed Feb 07 14:06:36 2018	3 years ago	8 months ago		RAO	
+16451	NWAO - STS6 LP noise increasing since late February 2019.	stalled	GSN	jander (Jared Anderson)	1		Wed May 22 16:35:46 2019	2 years ago	8 months ago		NWAO	
+17523	RSSD - STS-6 noisy horizontals	open	GSN	nvoss (Nick Voss)	1	jander (Jared Anderson)	Thu Nov 21 11:00:23 2019	2 years ago	8 months ago		RSSD	
+15982	RAR -  Weather station (LIO, LDO, and LKO) pulses/jumps and data gaps	stalled	GSN	jander (Jared Anderson)	1		Fri Mar 08 09:40:02 2019	2 years ago	8 months ago		RAR	
+11860	PTWC - ASL 3.8m Backup Installation	open	GSN	jander (Jared Anderson)	1	jander (Jared Anderson)	Tue Aug 09 12:32:33 2016	5 years ago	8 months ago		PTWC	
+15914	MIDW - STS-2 showing signs of failure	open	GSN	jander (Jared Anderson)	1		Mon Feb 25 12:53:08 2019	2 years ago	8 months ago		MIDW	
+7296	KBS: STS-1 (Vertical Pulsing)	open	GSN	jander (Jared Anderson)	4	lsandoval (Leo Sandoval)	Fri Aug 30 10:42:04 2013	8 years ago	8 months ago		KBS	
+19273	Q44B: Noise increased` on the Vertical component in July, and again in September	new	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Wed Nov 18 17:36:13 2020	8 months ago	8 months ago			Q44B
+19325	BOZ: Episensor ?N2 component broken  	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Wed Dec 02 13:00:41 2020	8 months ago	8 months ago	BOZ		
+18172	ACSO - Reoccurring water seepage into McMillan vault	new	ANSS-backbone	jallen (James Allen)	1	jallen (James Allen)	Thu Apr 16 16:59:41 2020	1 year ago	8 months ago	ACSO		
+10331	COR: STS-1 North Vacuum Loss	stalled	GSN	jander (Jared Anderson)	1		Fri Jul 31 13:43:46 2015	6 years ago	8 months ago		COR	
+18571	N4_143B - CMG3-T LP pulse on all components 	open	N4 Network	n4_opadmin	0		Mon Jul 06 10:17:58 2020	1 year ago	8 months ago			143B
+19077	AHID:  Needs new inverter (bypassed for now)	new	ANSS-backbone	scroberts (Steve Roberts)	1	scroberts (Steve Roberts)	Tue Sep 22 14:54:12 2020	10 months ago	8 months ago	AHID		
+19163	NE_TRY: Intermittent  power losses cause required RT-130 reboot	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Fri Oct 16 16:37:44 2020	9 months ago	8 months ago	NE-TRY		
+18747	HDIL - High latency issues starting around Juy 28th. No gaps in msd.	open	ANSS-backbone	ewolin (Emily Wolin)	1	aholcomb (Andrew Holcomb)	Wed Aug 12 12:53:48 2020	12 months ago	8 months ago	HDIL		
+19107	HF calibrations for the IC network	new	GSN	<jander@contractor.usgs.gov>	1	tstorm (Tyler Storm)	Tue Sep 29 14:57:12 2020	10 months ago	8 months ago		Other	
+19283	FURI - Electrical Work, Grounding, And Tunnel Leaks	new	GSN	<kpersefield@contractor.usgs.gov>	1	kpersefield (Kyle Persefield)	Fri Nov 20 10:01:53 2020	8 months ago	8 months ago		FURI	
+19282	GRTK: Multiple (100+) telemetry outages within 2 separate ~4-5 hour periods	new	GSN	gsn_opadmin	1	aholcomb (Andrew Holcomb)	Thu Nov 19 16:57:25 2020	8 months ago	8 months ago		GRTK	
+15350	ADK - Investigate Options for Posthole/Borehole Drilling	stalled	GSN	ggyure (Gary Gyure)	1	jander (Jared Anderson)	Thu Oct 11 12:03:37 2018	3 years ago	8 months ago		ADK	
+17790	N4_L56A_00: CMG-3T LP pulsing since Nov. 13 (317), 2019	open	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Fri Jan 10 14:36:20 2020	2 years ago	8 months ago			L56A
+19265	SDV (20) - Episensor showed multiple jumps/pulses Nov. 15 (320), 2020	new	GSN	gsn_opadmin	1	aholcomb (Andrew Holcomb)	Tue Nov 17 16:36:54 2020	8 months ago	8 months ago		SDV	
+19234	XAN STS-1 horizontal pulsing	new	GSN	gsn_opadmin	1	tstorm (Tyler Storm)	Thu Nov 05 13:13:50 2020	9 months ago	8 months ago		XAN	
+19233	XAN STS-1 horizontals are overdamped	new	GSN	gsn_opadmin	1	tstorm (Tyler Storm)	Thu Nov 05 13:09:37 2020	9 months ago	8 months ago		XAN	
+19232	QIZ STS-1 H2 overdamped	new	GSN	gsn_opadmin	1	tstorm (Tyler Storm)	Thu Nov 05 13:01:46 2020	9 months ago	8 months ago		QIZ	
+19231	LSA no H1 STS-1 cal output	new	GSN	gsn_opadmin	1	tstorm (Tyler Storm)	Thu Nov 05 11:05:27 2020	9 months ago	8 months ago		LSA	
+19230	ENH no vertical LP STS-1 cal output	new	GSN	gsn_opadmin	1	tstorm (Tyler Storm)	Thu Nov 05 11:01:45 2020	9 months ago	8 months ago		ENH	
+19140	PMG (60) M2166 Component 2 no longer recording ground motion after nearby earthquake occurred	open	GSN	gsn_opadmin	1	aholcomb (Andrew Holcomb)	Fri Oct 09 16:56:13 2020	10 months ago	9 months ago		PMG	
+19261	N4_Q52A: replace sump pump assembly	open	N4 Network	n4_opadmin	0	ewolin (Emily Wolin)	Fri Nov 13 15:10:55 2020	9 months ago	9 months ago			Q52A
+19259	N4_U49A - add corral panels to keep livestock away from vault lid	new	N4 Network	n4_opadmin	0	ewolin (Emily Wolin)	Fri Nov 13 09:52:09 2020	9 months ago	9 months ago			U49A
+16109	N4_U49A - Correlated Pulsing across all Channels	stalled	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Tue Mar 26 16:57:25 2019	2 years ago	9 months ago			U49A
+19252	MAJO: Centering motor on STS-1 North sensor broken	open	GSN	gsn_opadmin	1	ekromer (Ted Kromer)	Tue Nov 10 15:24:16 2020	9 months ago	9 months ago		MAJO	
+18932	N4_L46A: QEP needs firmware update	stalled	N4 Network	n4_opadmin	0	ewolin (Emily Wolin)	Fri Aug 21 14:20:22 2020	11 months ago	9 months ago			L46A
+19246	ADK (20) Episensor LNZ component increase in noise around Oct 28 (302), 2020	new	GSN	gsn_opadmin	1	aholcomb (Andrew Holcomb)	Mon Nov 09 14:58:15 2020	9 months ago	9 months ago		ADK	
+18456	RLMT 20 (Episensor) LN2 pulsing May 31, 2020	open	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Mon Jun 01 15:54:44 2020	1 year ago	9 months ago	RLMT		
+19045	LCO's STS1 vacuum levels steadily dropping since 2014	new	GSN	kpersefield (Kyle Persefield)	1	aholcomb (Andrew Holcomb)	Wed Sep 16 18:30:10 2020	10 months ago	9 months ago		LCO	
+19046	LSZ's STS1 vacuum levels slowly dropping	new	GSN	gsn_opadmin	1	aholcomb (Andrew Holcomb)	Wed Sep 16 18:38:19 2020	10 months ago	9 months ago		LSZ	
+18962	SLBS: Latency issues and multiple reboots at SLBS since July 28 (210).	open	GSN	gsn_opadmin	1	aholcomb (Andrew Holcomb)	Fri Aug 28 16:01:20 2020	11 months ago	9 months ago		SLBS	
+18577	XMAS – No remote access to the B44 Balers 	open	GSN	<koliver@contractor.usgs.gov>	1	koliver (Kenneth Oliver)	Tue Jul 07 08:11:04 2020	1 year ago	9 months ago		XMAS	
+18559	WVT – Baler running outdated firmware  	open	GSN	<koliver@contractor.usgs.gov>	1	koliver (Kenneth Oliver)	Tue Jun 30 14:50:47 2020	1 year ago	9 months ago		WVT	
+18578	FUNA – No remote access to the B44 Balers 	open	GSN	<koliver@contractor.usgs.gov>	1	koliver (Kenneth Oliver)	Tue Jul 07 08:21:59 2020	1 year ago	9 months ago		FUNA	
+18575	AFI - Q330HRs not sending data to the B44 Balers	open	GSN	<koliver@contractor.usgs.gov>	1	koliver (Kenneth Oliver)	Mon Jul 06 16:29:09 2020	1 year ago	9 months ago		AFI	
+19047	QSPA large data gaps daily starting Sep 8, 0000 UTC in tr1 only.	stalled	GSN	ttelesha (Tom Telesha)	1	aholcomb (Andrew Holcomb)	Wed Sep 16 19:00:14 2020	10 months ago	9 months ago		QSPA	
+17052	N4_KMSC - Episensor pulsing on all channels	open	N4 Network	n4_opadmin	0		Wed Sep 04 09:40:58 2019	2 years ago	9 months ago			KMSC
+19179	N4_E46A: (STS2.5) Horizontal components began pulsing every 1.1 hours on Oct 17 (290) at 05:50 UTC	new	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Thu Oct 22 16:36:20 2020	9 months ago	9 months ago			E46A
+19174	BILL STS-1 Z overdamped LP Response	new	GSN	gsn_opadmin	1	tstorm (Tyler Storm)	Wed Oct 21 15:57:45 2020	9 months ago	9 months ago		BILL	
+19162	NE_HNH has data gaps every 24 hours starting ~23:45 and ending at 00:00 UTC starting Sep. 13	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Fri Oct 16 16:28:44 2020	9 months ago	9 months ago	NE-HNH		
+18158	US_OGNE - Horizontal Pulsing 	new	ANSS-backbone	anss_opadmin	1		Tue Apr 14 13:13:03 2020	1 year ago	9 months ago	OGNE		
+18744	EGMT 00 Channel 1 keeps sliding toward tolerances	new	ANSS-backbone	aholcomb (Andrew Holcomb)	1	aholcomb (Andrew Holcomb)	Tue Aug 11 15:53:47 2020	12 months ago	9 months ago	EGMT		
+17426	MIDW_00: STS2 HG briefly not recording ground motion (Day 306 16:23 - 18:29 UTC)	stalled	GSN	aholcomb (Andrew Holcomb)	1	aholcomb (Andrew Holcomb)	Mon Nov 04 16:52:03 2019	2 years ago	10 months ago		MIDW	
+13903	ADK Q330 #2 slow willard connecction	open	GSN	kpersefield (Kyle Persefield)	1	lsandoval (Leo Sandoval)	Thu Feb 01 14:37:51 2018	3 years ago	10 months ago		ADK	
+19130	IW_LOHW Episensor no longer operational	new	ANSS-backbone	anss_opadmin	1		Wed Oct 07 12:50:04 2020	10 months ago	10 months ago	IW-LOHW		
+19106	IC non-realtime station calibration input	new	GSN	<tstorm.usgs.gov>	1	tstorm (Tyler Storm)	Tue Sep 29 14:52:31 2020	10 months ago	10 months ago		Other	
+15545	TEIG - 60_CMG3T no longer operational	open	GSN	gsn_opadmin	1		Fri Nov 09 16:28:19 2018	3 years ago	10 months ago		TEIG	
+12156	Work Instruction (WI) for Q330 BB seismometer HF Calibration	open	GSN	jander (Jared Anderson)	1	jander (Jared Anderson)	Wed Nov 02 14:37:13 2016	5 years ago	10 months ago		GSN	
+15007	VBMS - 20_EST-S2G Broken	open	ANSS-backbone	anss_opadmin	1	aalejandro (Alexis Alejandro)	Wed Aug 29 14:32:26 2018	3 years ago	10 months ago	VBMS		
+19094	LCO – Balers are running outdated Firmware. 	open	GSN	<koliver@contractor.usgs.gov>	1	koliver (Kenneth Oliver)	Fri Sep 25 09:20:38 2020	10 months ago	10 months ago		LCO	
+19090	M57A (31) - Pulsing on Setra starting Sept. 10, 2020	new	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Thu Sep 24 17:20:20 2020	10 months ago	10 months ago			M57A
+19087	PAB – Balers are running outdated Firmware. 	open	GSN	<koliver@contractor.usgs.gov>	1	koliver (Kenneth Oliver)	Thu Sep 24 16:16:50 2020	10 months ago	10 months ago		PAB	
+14917	RCBR -- CMG3 Vertical Lost half double ended output	new	GSN	tstorm (Tyler Storm)	1		Thu Aug 16 12:47:53 2018	3 years ago	10 months ago		RCBR	
+19060	WVOR - Negative jumps ~100 counts on vertical, then positive jump back to normal	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Fri Sep 18 15:57:44 2020	10 months ago	10 months ago	WVOR		
+19058	BINY 00 (STS2) quit recording ground motion for ~10 mins on Sep 17 (261) 0805 UTC	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Fri Sep 18 14:52:19 2020	10 months ago	10 months ago	BINY		
+18574	US_OXF Power issues causing station outages	open	ANSS-backbone	anss_opadmin	1		Mon Jul 06 13:22:35 2020	1 year ago	10 months ago	OXF		
+18479	SLBS 10 lost capture June 29 (181), 2020.609 UTC. Unable to be recentered remotely.	open	GSN	aholcomb (Andrew Holcomb)	1	aholcomb (Andrew Holcomb)	Fri Jun 05 14:45:08 2020	1 year ago	10 months ago		SLBS	
+18181	MA2 00 (STS1)  H1 and HZ LP non-coherent pulsing 	open	GSN	aholcomb (Andrew Holcomb)	1	aholcomb (Andrew Holcomb)	Tue Apr 21 10:35:23 2020	1 year ago	10 months ago		MA2	
+1744	KIEV -- STS-1 Horizontals Pulsing	open	GSN	aholcomb (Andrew Holcomb)	3		Mon Nov 23 10:26:25 2009	12 years ago	10 months ago		KIEV	
+15562	DLMT - Station Power Issues	stalled	ANSS-backbone	sploetz (Steve Ploetz)	1	aalejandro (Alexis Alejandro)	Wed Nov 14 16:36:46 2018	3 years ago	11 months ago	IW-DLMT		
+12162	PAB - BB Seismometers Hoizontals Pulsing	open	GSN	tstorm (Tyler Storm)	1	jander (Jared Anderson)	Fri Nov 04 06:17:53 2016	5 years ago	11 months ago		PAB	
+18661	R55A: Can log into VSAT modem, cannot ping Q330 via Willard	new	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Fri Jul 24 09:32:03 2020	1 year ago	11 months ago			R55A
+15368	N4_L59A - Hyperion recording HF noise on ?DF	open	N4 Network	n4_opadmin	0		Thu Oct 11 15:01:27 2018	3 years ago	11 months ago			L59A
+15672	LVC: Power system stolen, again	stalled	GSN	jander (Jared Anderson)	1	ekromer (Ted Kromer)	Tue Dec 04 11:33:08 2018	3 years ago	11 months ago		LVC	
+15916	RCBR - KS54000 east component pulsing	stalled	GSN	jzmaharrey (Joseph Zebulon Maharrey)	1		Mon Feb 25 13:28:40 2019	2 years ago	11 months ago		RCBR	
+19015	MA2_10 - STS2HG Jumps in signal on the vertical channel	open	GSN	aholcomb (Andrew Holcomb)	1	aholcomb (Andrew Holcomb)	Fri Sep 04 13:13:06 2020	11 months ago	11 months ago		MA2	
+18585	YSS STS-1 horizontal problems	stalled	GSN	jander (Jared Anderson)	1	tstorm (Tyler Storm)	Fri Jul 10 10:39:59 2020	1 year ago	11 months ago		YSS	
+17083	PET - Accelerometer ?N1 pulsing	stalled	GSN	ggyure (Gary Gyure)	1		Mon Sep 09 09:12:49 2019	2 years ago	11 months ago		PET	
+17279	LSA - Pulsing on STS-1 east sensor	open	GSN	aholcomb (Andrew Holcomb)	1		Fri Oct 11 11:12:13 2019	2 years ago	11 months ago		LSA	
+18107	RAO_00 (STS2.5) HF cal Dropouts	stalled	GSN	ekromer (Ted Kromer)	1	aholcomb (Andrew Holcomb)	Fri Mar 20 17:30:05 2020	1 year ago	11 months ago		RAO	
+19017	Multiple local array GS network station reboots Aug 30th	open	GSN	reanthony (Robert E. Anthony)	1	aholcomb (Andrew Holcomb)	Fri Sep 04 15:42:15 2020	11 months ago	11 months ago		Other	
+18986	PAYG: Channel 50 LIO, LKO, LDO weather stations showing signs of failure	open	GSN	aholcomb (Andrew Holcomb)	1	aholcomb (Andrew Holcomb)	Tue Sep 01 16:55:20 2020	11 months ago	11 months ago		PAYG	
+7310	TIXI STS-1s have overdamped long period responses	open	GSN	jander (Jared Anderson)	3	tstorm (Tyler Storm)	Tue Sep 03 15:12:55 2013	8 years ago	11 months ago		TIXI	
+17148	TIXI - STS1 N sensor pulsing 	open	GSN	jander (Jared Anderson)	1		Wed Sep 18 11:08:23 2019	2 years ago	11 months ago		TIXI	
+15453	TIXI - STS-1 ?HZ noisy and all channels pulsing at different times	open	GSN	jander (Jared Anderson)	1		Tue Oct 23 14:17:41 2018	3 years ago	11 months ago		TIXI	
+17957	TIXI STS-1 reversed polarity	stalled	GSN	jander (Jared Anderson)	1	tstorm (Tyler Storm)	Tue Feb 04 11:52:50 2020	1 year ago	11 months ago		TIXI	
+17968	MAKZ Q330 not configured to run HF Cals	open	GSN	jander (Jared Anderson)	1	aholcomb (Andrew Holcomb)	Fri Feb 07 11:24:55 2020	1 year ago	11 months ago		MAKZ	
+19023	GSN - Build (5) ASL-Built Hughes DC Power Supplies	open	GSN	jvpatton (Jason Patton)	1	jander (Jared Anderson)	Tue Sep 08 13:07:48 2020	11 months ago	11 months ago		GSN	
+17204	SLBS_00: H1, H2 channels are dead	stalled	GSN	gsn_opadmin	1	aholcomb (Andrew Holcomb)	Thu Sep 26 14:43:54 2019	2 years ago	11 months ago		SLBS	
+18219	CASY – Remote Access to Baler #2 Status Page. 	open	GSN	<koliver@contractor.usgs.gov>	1	koliver (Kenneth Oliver)	Thu Apr 30 13:59:01 2020	1 year ago	11 months ago		CASY	
+9623	ULN: STS-1 *H2 Vacuum Loss	open	GSN	kpersefield (Kyle Persefield)	1		Tue Feb 24 15:09:38 2015	6 years ago	11 months ago		ULN	
+18934	PTCN: Iota battery charger not lasting long, research reviving Exide charger	open	GSN	<kpersefield@contractor.usgs.gov>	1	ekromer (Ted Kromer)	Mon Aug 24 12:50:22 2020	11 months ago	11 months ago		PTCN	
+18211	SLBS – Remote Access to Baler #2 Status Page. 	open	GSN	ttelesha (Tom Telesha)	1	koliver (Kenneth Oliver)	Wed Apr 29 11:02:02 2020	1 year ago	11 months ago		SLBS	
+18998	I49A - Hyperion Microbarometer Infrasound channel BDF pulsing	new	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Wed Sep 02 17:41:03 2020	11 months ago	11 months ago			I49A
+15369	N4_K30B - Hyperion ?DF dead channels	open	N4 Network	n4_opadmin	0		Thu Oct 11 15:17:20 2018	3 years ago	11 months ago			K30B
+15365	K50A - Pulses/jumps on microbarometer ?DF channels	open	N4 Network	n4_opadmin	0		Thu Oct 11 14:32:04 2018	3 years ago	11 months ago			K50A
+18992	N4_545B Increased T120 noise on the vertical component	new	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Wed Sep 02 13:31:29 2020	11 months ago	11 months ago			545B
+18993	NE_WSPT: ~15 minute data loss every night from 11:45 UTC to 00:00 UTC	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Wed Sep 02 13:37:43 2020	11 months ago	11 months ago	NE-WSPT		
+18888	NE VT1 has a data gap at 00:00 UTC every 24 hours since data returned on Aug 17 (230), 2020	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Thu Aug 20 14:40:24 2020	11 months ago	11 months ago	NE-VT1		
+15564	BINY - Bad episensor	stalled	ANSS-backbone	Nobody in particular	1		Thu Nov 15 08:52:47 2018	3 years ago	11 months ago	BINY		
+18958	N4_Z38B - Frequent LP pulsing since Aug 22 (235) ~1800 UTC	new	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Thu Aug 27 14:24:31 2020	11 months ago	11 months ago			Z38B
+18929	N4_061Z: QEP needs firmware update	open	N4 Network	n4_opadmin	0	ewolin (Emily Wolin)	Fri Aug 21 13:49:34 2020	11 months ago	11 months ago			061Z
+18745	US_NATX Episensor LN1 jumps	new	ANSS-backbone	anss_opadmin	1		Wed Aug 12 08:35:10 2020	12 months ago	12 months ago	NATX		
+17383	US_LKWY_20: Episensor pulsing since installation on Day 299	open	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Mon Oct 28 16:36:19 2019	2 years ago	12 months ago	LKWY		
+18736	PR_UUPR  Telemetry outage beginning at 2020-08-06 (219) 16:14:59 UTC	open	GSN	<gsnmaint@usgs>	1		Tue Aug 11 10:16:34 2020	12 months ago	12 months ago		Other	
+3376	PTGA 54000 stuck in borehole 3 Nov 2009	stalled	GSN	ekromer (Ted Kromer)	2	ggyure (Gary Gyure)	Wed Feb 09 12:39:12 2011	10 years ago	12 months ago		PTGA	
+7379	RAR Falcon Failed	stalled	GSN	ekromer (Ted Kromer)	5	ekromer (Ted Kromer)	Wed Sep 18 03:53:05 2013	8 years ago	12 months ago		RAR	
+10651	PTGA: STS-2-HG Vertical Failure / Replace with T360BH1-HL	stalled	GSN	ekromer (Ted Kromer)	1		Mon Oct 19 10:33:28 2015	6 years ago	12 months ago		PTGA	
+10272	PTGA Mast Kit	stalled	GSN	ekromer (Ted Kromer)	5	ekromer (Ted Kromer)	Wed Jul 15 16:43:21 2015	6 years ago	12 months ago		PTGA	
+11063	PTGA - No Telemetry	stalled	GSN	ekromer (Ted Kromer)	50	kpersefield (Kyle Persefield)	Wed Jan 13 09:45:50 2016	6 years ago	12 months ago		PTGA	
+13582	PMSA - Pier Drill at Palmer Station?	stalled	GSN	ekromer (Ted Kromer)	1	jander (Jared Anderson)	Wed Nov 29 13:56:38 2017	4 years ago	12 months ago		PMSA	
+18050	PMSA no HF cals	stalled	GSN	ekromer (Ted Kromer)	1	tstorm (Tyler Storm)	Tue Mar 03 10:10:13 2020	1 year ago	12 months ago		PMSA	
+17120	PMSA - STS1 vertical pulsing	stalled	GSN	ekromer (Ted Kromer)	1		Fri Sep 13 10:44:30 2019	2 years ago	12 months ago		PMSA	
+17832	PMSA: Install Mag690	stalled	GSN	ekromer (Ted Kromer)	1	ekromer (Ted Kromer)	Fri Jan 17 09:10:37 2020	2 years ago	12 months ago		PMSA	
+13513	GSN - Pole Mount PV Combiner Breaker Box (NEMA 4X)	new	GSN	gvallo (Gilbert Vallo)	1	jander (Jared Anderson)	Tue Nov 14 15:28:23 2017	4 years ago	12 months ago		GSN	
+15547	LVC - No Telemetry Data & Poor Clock Quality	stalled	GSN	ekromer (Ted Kromer)	1	ambaker (Adam Baker)	Tue Nov 13 09:05:54 2018	3 years ago	1 year ago		LVC	
+17001	FURI - Episensor ?NZ is bad	open	GSN	kpersefield (Kyle Persefield)	1		Wed Aug 28 11:05:22 2019	2 years ago	1 year ago		FURI	
+18416	N4 – W57A Q330SR shows Packet Memory Error 	stalled	N4 Network	<koliver@contractor.usgs.gov>	0	koliver (Kenneth Oliver)	Tue May 26 07:36:51 2020	1 year ago	1 year ago			W57A
+18384	N4 – T47A Q330SR shows Reduced Packet Memory	stalled	N4 Network	<koliver@contractor.usgs.gov>	0	koliver (Kenneth Oliver)	Thu May 21 10:24:29 2020	1 year ago	1 year ago			T47A
+18259	N4 – 152A Q330SR shows Packet Memory Error 	stalled	N4 Network	<koliver@contractor.usgs.gov>	0	koliver (Kenneth Oliver)	Mon May 11 10:53:16 2020	1 year ago	1 year ago			152A
+18648	S54A - Highly latent data beginning on July 22nd - Winter Visits Only	open	N4 Network	n4_opadmin	0	ambaker (Adam Baker)	Wed Jul 22 12:26:49 2020	1 year ago	1 year ago			S54A
+17227	N4_T47A - STS2 Z drifting and data jumps on day 271	stalled	N4 Network	n4_opadmin	0		Wed Oct 02 09:52:40 2019	2 years ago	1 year ago			T47A
+18637	G65A - 80s pulse every ~1000s on 1,2 components	new	N4 Network	n4_opadmin	0		Mon Jul 20 13:31:14 2020	1 year ago	1 year ago			G65A
+17332	NE_BCX - RT147 (20) jumps and pulses	new	ANSS-backbone	anss_opadmin	1		Tue Oct 22 09:26:28 2019	2 years ago	1 year ago	NE-BCX		
+18601	IW LOHW: Multiple short (<120 s) data drops between July 9 and 11, 2020	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Tue Jul 14 11:40:36 2020	1 year ago	1 year ago	IW-LOHW		
+17342	US_EGAK - No telemetry data since 2019-10-22 (295) 19:44:56 UTC	new	ANSS-backbone	sploetz (Steve Ploetz)	1		Wed Oct 23 12:39:59 2019	2 years ago	1 year ago	EGAK		
+15366	N4_O49A - Hyperion ?DF channels recording high frequency noise	stalled	N4 Network	n4_opadmin	0		Thu Oct 11 14:53:38 2018	3 years ago	1 year ago			O49A
+15493	CU GRGR Comm Issues	stalled	GSN	gvallo (Gilbert Vallo)	1		Wed Oct 31 09:17:30 2018	3 years ago	1 year ago		Other	
+17088	US_HWUT - Multiple Q330 reboots since 2019, 251	open	ANSS-backbone	anss_opadmin	1		Mon Sep 09 13:31:32 2019	2 years ago	1 year ago	HWUT		
+15858	US_HWUT - coherent pulsing not on all UVW components	open	ANSS-backbone	Nobody in particular	1		Wed Feb 13 11:26:03 2019	2 years ago	1 year ago	HWUT		
+13248	US-HLID Baler needs replaced	open	ANSS-backbone	Nobody in particular	1		Fri Sep 08 15:17:53 2017	4 years ago	1 year ago	HLID		
+18564	N4_L46A – Baler in Linear Mode with outdated firmware 	open	N4 Network	<koliver@contractor.usgs.gov>	0	koliver (Kenneth Oliver)	Wed Jul 01 10:08:54 2020	1 year ago	1 year ago			L46A
+18550	BMO Orientation difference	new	ANSS-backbone	ewolin (Emily Wolin)	1	tstorm (Tyler Storm)	Mon Jun 29 15:22:56 2020	1 year ago	1 year ago	BMO		
+16253	N4_I49A - Data jumps/pulsing on setra LDO channels	open	N4 Network	sploetz (Steve Ploetz)	0		Thu Apr 18 11:12:45 2019	2 years ago	1 year ago			I49A
+16173	N4_O52A - Pulsing on LH1 starting Day 90	open	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Mon Apr 08 09:10:21 2019	2 years ago	1 year ago			O52A
+18546	WVOR - SensOrLoc Test	open	ANSS-backbone	kmwallace1 (Kyle Wallace)	1		Fri Jun 26 12:00:16 2020	1 year ago	1 year ago	WVOR		
+18545	RLMT - SensOrLoc Test	open	ANSS-backbone		1		Fri Jun 26 11:59:24 2020	1 year ago	1 year ago	RLMT		
+18544	NEW - SensOrLoc Test	open	ANSS-backbone	kmwallace1 (Kyle Wallace)	1		Fri Jun 26 11:58:36 2020	1 year ago	1 year ago	NEW		
+18543	LONY - SensOrLoc Test	open	ANSS-backbone	kmwallace1 (Kyle Wallace)	1		Fri Jun 26 11:57:44 2020	1 year ago	1 year ago	LONY		
+18542	ISCO - SensOrLoc Test	open	ANSS-backbone	kmwallace1 (Kyle Wallace)	1		Fri Jun 26 11:56:45 2020	1 year ago	1 year ago	ISCO		
+18541	HWUT- SensOrLoc Test	open	ANSS-backbone	kmwallace1 (Kyle Wallace)	1		Fri Jun 26 11:55:09 2020	1 year ago	1 year ago	HWUT		
+18540	HLID- SensOrLoc Test	open	ANSS-backbone	kmwallace1 (Kyle Wallace)	1		Fri Jun 26 11:54:07 2020	1 year ago	1 year ago	HLID		
+18539	DUG - SensOrLoc Test	open	ANSS-backbone	Nobody in particular	1		Fri Jun 26 11:49:05 2020	1 year ago	1 year ago	DUG		
+15177	N4_N47A - LP Pulsing on vertical component of CMG3T	stalled	N4 Network	<jander@contractor.usgs.gov>	0		Mon Oct 01 13:21:13 2018	3 years ago	1 year ago			N47A
+17773	GSN - Compile list of Clothing for Field Deployments	new	GSN	jzmaharrey (Joseph Zebulon Maharrey)	1	jander (Jared Anderson)	Thu Jan 09 10:43:14 2020	2 years ago	1 year ago		GSN	
+18462	N4 P43A LDO (31) : Setra pulsing started May 26th (147), 2020	open	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Wed Jun 03 18:15:02 2020	1 year ago	1 year ago			P43A
+18248	N4_060A - *H2 pulsing	stalled	N4 Network	n4_opadmin	0		Thu May 07 09:27:59 2020	1 year ago	1 year ago			060A
+18519	IW MOOW Daily Reftek reboots at ~01:21 UTC starting day June 13 (165)	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Wed Jun 17 13:14:14 2020	1 year ago	1 year ago	IW-MOOW		
+18518	IW_ LOHW Infrequent LP Pulsing on all 3 components	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Wed Jun 17 12:43:19 2020	1 year ago	1 year ago	IW-LOHW		
+16107	N4_S57A - Noisy channels related to Cattle Grazing	stalled	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Tue Mar 26 12:17:20 2019	2 years ago	1 year ago			S57A
+15883	N4_545B - New sensor has poor HF response fit	stalled	N4 Network	n4_opadmin	0		Wed Feb 20 09:44:08 2019	2 years ago	1 year ago			545B
+18463	US_NLWA : Telemetry goes down most nights between ~0320 and ~0400 UTC. No data is lost	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Thu Jun 04 17:01:15 2020	1 year ago	1 year ago	NLWA		
+18489	GRFO – Q330S has DigCalErr 456 error message.	open	GSN	<koliver@contractor.usgs.gov>	1	koliver (Kenneth Oliver)	Wed Jun 10 17:17:31 2020	1 year ago	1 year ago		GRFO	
+18281	N4 – E46A Q330SR shows DigCalErr4 Error 	open	N4 Network	<koliver@contractor.usgs.gov>	0	koliver (Kenneth Oliver)	Tue May 12 12:12:00 2020	1 year ago	1 year ago			E46A
+17503	US_MSO_20: Episensor Z channel pulsing between Nov. 17 (321) ~1700 and Nov. 18 (322) ~1700 UTC	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Mon Nov 18 17:06:10 2019	2 years ago	1 year ago	MSO		
+14612	ECSD - 30_LDO Channel Failure	new	ANSS-backbone	ewolin (Emily Wolin)	1	aalejandro (Alexis Alejandro)	Thu Jun 21 15:53:44 2018	3 years ago	1 year ago	ECSD		
+18284	Test Old FBA-23 Accelerometers 	new	GSN	<kpersefield@contractor.usgs.gov>	1	kpersefield (Kyle Persefield)	Tue May 12 14:23:34 2020	1 year ago	1 year ago		Other	
+18238	KIEV – Remote Access to Balers #1 & #2 Status Page. 	open	GSN	<koliver@contractor.usgs.gov>	1	koliver (Kenneth Oliver)	Mon May 04 12:53:52 2020	1 year ago	1 year ago		KIEV	
+18220	CHTO – Both Balers are not recording data.	new	GSN	<koliver@contractor.usgs.gov>	1	koliver (Kenneth Oliver)	Thu Apr 30 14:09:36 2020	1 year ago	1 year ago		CHTO	
+14157	Borehole packoff assembly clamp drawings	new	GSN	vstoup (Vernon Stoup)	1	yprior (Yolanda Prior)	Wed Mar 21 11:53:31 2018	3 years ago	1 year ago		Other	
+18171	NATX - Reoccurring water seepage into McMillan vault	new	ANSS-backbone	jallen (James Allen)	1	jallen (James Allen)	Thu Apr 16 16:56:16 2020	1 year ago	1 year ago	NATX		
+18170	HDIL - Remove brush, thorn bushes, and small trees in fenced area of site	new	ANSS-backbone	jallen (James Allen)	1	jallen (James Allen)	Thu Apr 16 16:40:43 2020	1 year ago	1 year ago	HDIL		
+18168	RLMT - Replace Vault Lid	new	ANSS-backbone	jallen (James Allen)	1	jallen (James Allen)	Thu Apr 16 16:24:42 2020	1 year ago	1 year ago	RLMT		
+18162	BCIP - Q330 not sending data to PB14 Baler	new	GSN	<koliver@contractor.usgs.gov>	1	koliver (Kenneth Oliver)	Tue Apr 14 17:00:03 2020	1 year ago	1 year ago		BCIP	
+18063	PMSA: Maintenance Trip Apri/May 2020	stalled	GSN	ekromer (Ted Kromer)	1	ekromer (Ted Kromer)	Fri Mar 06 14:18:21 2020	1 year ago	1 year ago		PMSA	
+18111	NE-WSPT:  Loss of data due to GPS timing issue	new	ANSS-backbone	Nobody in particular	1	sploetz (Steve Ploetz)	Fri Mar 27 14:16:59 2020	1 year ago	1 year ago	NE-WSPT		
+5008	SLBS all STS-1s have overdamped responses	stalled	GSN	ekromer (Ted Kromer)	4	tstorm (Tyler Storm)	Tue Feb 28 15:25:55 2012	9 years ago	1 year ago		SLBS	
+15402	SLBS - STS1 Vertical Needs Recenter	stalled	GSN	gsn_opadmin	1	aalejandro (Alexis Alejandro)	Tue Oct 16 17:27:33 2018	3 years ago	1 year ago		SLBS	
+14986	SLBS: Install falcon and associated parts	stalled	GSN	ekromer (Ted Kromer)	1	ekromer (Ted Kromer)	Mon Aug 27 13:10:50 2018	3 years ago	1 year ago		SLBS	
+14987	SLBS: Sump pump box buildup and installation	stalled	GSN	ekromer (Ted Kromer)	1	ekromer (Ted Kromer)	Mon Aug 27 13:12:43 2018	3 years ago	1 year ago		SLBS	
+17010	SLBS - STS1 VYZ and VY1 low vacuum levels	stalled	GSN	gsn_opadmin	1		Wed Aug 28 15:23:15 2019	2 years ago	1 year ago		SLBS	
+15622	QSPA CMG3-TB (70 location code) LP pulses	open	GSN	gsn_opadmin	1	tstorm (Tyler Storm)	Fri Nov 23 10:34:32 2018	3 years ago	1 year ago		QSPA	
+16450	COLA - Increase in LP noise on STS-6 since early March, 2019	open	GSN	aholcomb (Andrew Holcomb)	1		Wed May 22 16:07:21 2019	2 years ago	1 year ago		COLA	
+14754	PET 00_STS1 *H1 LP Noise	open	GSN	lsandoval (Leo Sandoval)	1	lsandoval (Leo Sandoval)	Tue Jul 17 11:03:15 2018	3 years ago	1 year ago		PET	
+18054	Autocal change	new	GSN	ttelesha (Tom Telesha)	1	tstorm (Tyler Storm)	Wed Mar 04 11:29:40 2020	1 year ago	1 year ago		Other	
+17977	US-SDCO:  MXE failure	new	ANSS-backbone	Nobody in particular	1	sploetz (Steve Ploetz)	Mon Feb 10 13:04:00 2020	1 year ago	1 year ago	SDCO		
+11965	KONO move station to new location in the tunnel	open	GSN	ggyure (Gary Gyure)	1	ggyure (Gary Gyure)	Thu Sep 08 10:59:48 2016	5 years ago	1 year ago		KONO	
+17512	IW_TPAW - No telemetry data	new	ANSS-backbone	Nobody in particular	1	ewolin (Emily Wolin)	Tue Nov 19 15:11:22 2019	2 years ago	1 year ago	IW-TPAW		
+16644	NE_WSPT - RT151 HF noise on day 174	new	ANSS-backbone	ewolin (Emily Wolin)	1		Wed Jun 26 10:41:07 2019	2 years ago	2 years ago	NE-WSPT		
+17902	FIR Filter Stage gain issues	new	ANSS-backbone	Nobody in particular	1	aringler (Adam Ringler)	Mon Jan 27 11:44:54 2020	2 years ago	2 years ago	Multiple Stations		
+17210	MAKZ - investigate installing STS-6A in posthole	open	GSN	ggyure (Gary Gyure)	1	dwilson (David C Wilson)	Mon Sep 30 11:45:02 2019	2 years ago	2 years ago		MAKZ	
+15943	FURI Drill seismometer boreholes at tunnel site	open	GSN	ggyure (Gary Gyure)	1	ggyure (Gary Gyure)	Fri Mar 01 11:56:30 2019	2 years ago	2 years ago		FURI	
+15598	KMBO - Borehole Cover	new	GSN	<kpersefield@contractor.usgs.gov>	1	jander (Jared Anderson)	Mon Nov 19 17:12:03 2018	3 years ago	2 years ago		KMBO	
+16679	NE_WSPT - RT147 vertical channel dead	new	ANSS-backbone	ewolin (Emily Wolin)	1		Mon Jul 08 15:40:32 2019	2 years ago	2 years ago	NE-WSPT		
+15738	KBS: STS-1 Z limit switch contacted	open	GSN	jander (Jared Anderson)	1	ekromer (Ted Kromer)	Fri Dec 21 11:54:06 2018	3 years ago	2 years ago		KBS	
+17155	INCN: LP Pulsing on HZ channel	open	GSN	kpersefield (Kyle Persefield)	1	aholcomb (Andrew Holcomb)	Thu Sep 19 10:38:24 2019	2 years ago	2 years ago		INCN	
+16467	PTGA - Station Mockup and Shipping	open	GSN	jvpatton (Jason Patton)	1	jander (Jared Anderson)	Wed May 29 08:02:57 2019	2 years ago	2 years ago		PTGA	
+17531	AFI - Exploring Solar Solution	open	GSN	jander (Jared Anderson)	1	jander (Jared Anderson)	Fri Nov 22 11:01:16 2019	2 years ago	2 years ago		AFI	
+17452	POHA - Cell Modem Upgrade to 4G 	new	GSN	<koliver@contractor.usgs.gov>	1	koliver (Kenneth Oliver)	Fri Nov 08 12:45:09 2019	2 years ago	2 years ago		POHA	
+17386	N4_S51A: N1 channel pulsing/jumping	new	N4 Network	n4_opadmin	0	aholcomb (Andrew Holcomb)	Tue Oct 29 16:55:13 2019	2 years ago	2 years ago			S51A
+16522	LSZ - STS1 vertical sensor pulsing occasionally since day 145	new	GSN	gsn_opadmin	1		Thu Jun 06 14:42:21 2019	2 years ago	2 years ago		LSZ	
+16589	US_WVOR - Incoherent noise on STS2	new	ANSS-backbone	ewolin (Emily Wolin)	1		Tue Jun 18 13:50:28 2019	2 years ago	2 years ago	WVOR		
+17246	US_AMTX - STS2 pulsing on all channels days 2019, 275-277	new	ANSS-backbone	anss_opadmin	1		Fri Oct 04 12:03:36 2019	2 years ago	2 years ago	AMTX		
+17245	KMBO - Pre-Deployment QC Check	new	GSN	kpersefield (Kyle Persefield)	1		Fri Oct 04 11:58:40 2019	2 years ago	2 years ago		KMBO	
+14148	MA2 00_STS1 Horizontals  LP Pulsing increasing since day 070	open	GSN	gsn_opadmin	1	lsandoval (Leo Sandoval)	Tue Mar 20 11:57:20 2018	3 years ago	2 years ago		MA2	
+17188	IW_IMW - No Telemetry Data 	new	ANSS-backbone	anss_opadmin	1	ambaker (Adam Baker)	Wed Sep 25 09:50:53 2019	2 years ago	2 years ago	IW-IMW		
+17149	US_DUG - Episensor pulsing since 2019, 261	new	ANSS-backbone	anss_opadmin	1		Wed Sep 18 11:43:24 2019	2 years ago	2 years ago	DUG		
+12432	Work Instruction replace SIB	open	GSN	yprior (Yolanda Prior)	1		Tue Jan 24 10:14:28 2017	5 years ago	2 years ago		Other	
+15987	Wire 6x Trillium Interface Boxes	new	GSN	yprior (Yolanda Prior)	1	davidjones (David Kyle Jones)	Mon Mar 11 09:18:12 2019	2 years ago	2 years ago		Other	
+17121	WRAK - Horizontal pulsing on both STS2s	new	ANSS-backbone	anss_opadmin	1		Fri Sep 13 11:34:55 2019	2 years ago	2 years ago	WRAK		
+13593	US-TZTN STS2 signs of failure 	open	ANSS-backbone	Nobody in particular	1		Fri Dec 01 15:55:23 2017	4 years ago	2 years ago	TZTN		
+13423	MIDW - Disable gsn-midw mailing list	open	GSN	ttelesha (Tom Telesha)	1	jander (Jared Anderson)	Tue Oct 24 09:15:18 2017	4 years ago	2 years ago		MIDW	
+16574	ECSD Excessive gapping	new	ANSS-backbone	anssmaint	1	lsandoval (Leo Sandoval)	Fri Jun 14 11:00:12 2019	2 years ago	2 years ago	ECSD		
+16457	GS_ASL9 - 10_STS2 Data pulsing/jumps since day 137	new	ANSS-backbone	Nobody in particular	1		Thu May 23 13:11:05 2019	2 years ago	2 years ago	Other		
+16390	IW_MOOW - RT147 pulsing since dat 126	new	ANSS-backbone	Nobody in particular	1		Mon May 13 11:08:03 2019	2 years ago	2 years ago	IW-MOOW		
+8005	KONO Move the seimometers farther back in the mine	open	GSN	dwilson (David C Wilson)	5	ggyure (Gary Gyure)	Tue Feb 25 11:40:32 2014	7 years ago	2 years ago		KONO	
+16324	NE_HNH - T120 Z component pulsing	new	ANSS-backbone	Nobody in particular	1		Wed May 01 12:03:00 2019	2 years ago	2 years ago	NE-HNH		
+14518	LSA - Pulsing on STS-2.5 Vertical	open	GSN	gsn_opadmin	1	aalejandro (Alexis Alejandro)	Fri Jun 01 13:33:31 2018	3 years ago	2 years ago		LSA	
+15942	LSZ Drill seismometer boreholes	open	GSN	ggyure (Gary Gyure)	1	ggyure (Gary Gyure)	Fri Mar 01 11:54:12 2019	2 years ago	2 years ago		LSZ	
+11070	YSS: STS-1 Coherent Noise	open	GSN	gsn_opadmin	1		Wed Jan 13 15:04:41 2016	6 years ago	2 years ago		YSS	
+4939	YAK STS-1 Z lp and sp noise	open	GSN	gsn_opadmin	4	tstorm (Tyler Storm)	Thu Feb 09 12:06:26 2012	9 years ago	2 years ago		YAK	
+12303	ANTO - Trillium Isolated 24V Distribution Box	new	GSN	gvallo (Gilbert Vallo)	1	jander (Jared Anderson)	Wed Dec 14 11:21:57 2016	5 years ago	2 years ago		ANTO	
+14302	HKT 10 Increasing LP Noise - All Components	open	GSN	gvallo (Gilbert Vallo)	1	aalejandro (Alexis Alejandro)	Tue Apr 17 15:07:44 2018	3 years ago	2 years ago		HKT	
+13878	MVCO- 7 second signal on the ECO and BCO cal channels	new	ANSS-backbone	Nobody in particular	1	lsandoval (Leo Sandoval)	Mon Jan 29 14:09:01 2018	3 years ago	2 years ago	MVCO		
+14983	SLBS: Replace E300	stalled	GSN	gsn_opadmin	1	ekromer (Ted Kromer)	Mon Aug 27 13:05:53 2018	3 years ago	2 years ago		SLBS	
+14985	SLBS: Missing equipment from shipment Aug 2018	stalled	GSN	gsn_opadmin	1	ekromer (Ted Kromer)	Mon Aug 27 13:09:06 2018	3 years ago	2 years ago		SLBS	
+14670	SAML - 00_KS54000 Dead East Channel, others single ended	open	GSN	gsn_opadmin	1	aalejandro (Alexis Alejandro)	Tue Jul 03 09:11:31 2018	3 years ago	3 years ago		SAML	
+12924	CTBTO - Station Spares Kits - Indentify, Order, Prepare, and Ship	new	GSN	kpersefield (Kyle Persefield)	1	kpersefield (Kyle Persefield)	Fri Jun 23 11:22:08 2017	4 years ago	3 years ago		CTBTO	
+15235	TATO - Episensor north channel has multiple drops/jumps of ~100 counts	new	GSN	gsn_opadmin	1		Fri Oct 05 17:02:19 2018	3 years ago	3 years ago		TATO	
+15236	TRQA - Episensor jumps/dips on all channels	new	GSN	gsn_opadmin	1		Fri Oct 05 17:21:46 2018	3 years ago	3 years ago		TRQA	
+10146	QSPA: KS54000 Long Period Noise	open	GSN	<lsandoval@usgsgov>	1		Fri Jun 26 11:02:48 2015	6 years ago	3 years ago		QSPA	
+15674	NE_VT1 - Consistent Gaps in T120 Data	new	ANSS-backbone	Nobody in particular	1	aalejandro (Alexis Alejandro)	Tue Dec 04 16:04:58 2018	3 years ago	3 years ago	NE-VT1		
+15552	MAJO - High frequency noise on north component of M2166	stalled	GSN	gsn_opadmin	1		Tue Nov 13 15:19:26 2018	3 years ago	3 years ago		MAJO	
+14446	YSS - Pulsing on BH and LH Channels	open	GSN	gsn_opadmin	1	aalejandro (Alexis Alejandro)	Wed May 16 15:32:46 2018	3 years ago	3 years ago		YSS	
+15449	ENH 00_STS1_Z Calibration 19 Oct (292) No Signal	new	GSN	gsn_opadmin	1	lsandoval (Leo Sandoval)	Tue Oct 23 11:36:24 2018	3 years ago	3 years ago		ENH	
+13937	US-OXF verify output of DC-DC converter	open	ANSS-backbone	sploetz (Steve Ploetz)	1		Tue Feb 06 12:45:34 2018	3 years ago	3 years ago	OXF		
+13930	US-OXF Q330 bad input voltage monitor	new	ANSS-backbone	sploetz (Steve Ploetz)	1		Mon Feb 05 15:39:29 2018	3 years ago	3 years ago	OXF		
+10942	DUG: Thermal (?) Drift	new	ANSS-backbone	sploetz (Steve Ploetz)	1		Fri Dec 11 14:43:30 2015	6 years ago	3 years ago	DUG		
+13720	US-MCWV/00 STS-2 high noise on horizontals	new	ANSS-backbone	sploetz (Steve Ploetz)	1		Wed Dec 27 12:15:15 2017	4 years ago	3 years ago	MCWV		
+11663	ANTO T120 LP Vertical Noise	open	GSN	gvallo (Gilbert Vallo)	1	tstorm (Tyler Storm)	Mon Jun 27 13:04:51 2016	5 years ago	3 years ago		ANTO	
+14827	STS-6 Interface box build up	new	GSN	yprior (Yolanda Prior)	1	gvallo (Gilbert Vallo)	Mon Aug 06 14:32:46 2018	3 years ago	3 years ago		Other	
+13368	NLV backhaul heated VSAT dish inoperative	new	ANSS-backbone	jallen (James Allen)	1	jallen (James Allen)	Thu Oct 12 09:49:56 2017	4 years ago	3 years ago	AG-GLD		
+15091	ADK Action Items From Sep 2018 Trip	new	GSN	kpersefield (Kyle Persefield)	1	kpersefield (Kyle Persefield)	Wed Sep 19 11:29:17 2018	3 years ago	3 years ago		ADK	
+9578	SDV - Action items from 2015 maintenance trip	stalled	GSN	jander (Jared Anderson)	5		Tue Feb 17 11:08:54 2015	6 years ago	3 years ago		SDV	
+15000	AFI - Next Visit Action Items	stalled	GSN	jander (Jared Anderson)	1	ekromer (Ted Kromer)	Wed Aug 29 11:03:33 2018	3 years ago	3 years ago		AFI	
+10998	LCO - M2166 Vertical noise - Post Hole?	open	GSN	dwilson (David C Wilson)	1	tstorm (Tyler Storm)	Tue Dec 29 11:33:53 2015	6 years ago	3 years ago		LCO	
+12534	Filling data gaps POHA, KMBO	open	GSN	aringler (Adam Ringler)	1	tstorm (Tyler Storm)	Thu Feb 16 17:37:58 2017	4 years ago	3 years ago		POHA	
+15024	Update MSD with China data	new	GSN	aringler (Adam Ringler)	1	aringler (Adam Ringler)	Wed Sep 05 07:38:40 2018	3 years ago	3 years ago		Other	
+11856	GTBY: STS-2 Vertical Half Output	open	GSN	lsandoval (Leo Sandoval)	1		Mon Aug 08 12:49:00 2016	5 years ago	3 years ago		GTBY	
+13686	Work Instruction (WI) for Replacing Desiccant inside the Slate	open	GSN	koliver (Kenneth Oliver)	1	koliver (Kenneth Oliver)	Tue Dec 19 07:48:52 2017	4 years ago	3 years ago		GSN	
+14704	WUAZ 00_STS2 BC0 channel issue	new	ANSS-backbone	Nobody in particular	1	lsandoval (Leo Sandoval)	Wed Jul 11 05:02:39 2018	3 years ago	3 years ago	WUAZ		
+13670	Draft WI for Q330 Internal Battery Replacement	new	GSN	koliver (Kenneth Oliver)	5	koliver (Kenneth Oliver)	Fri Dec 15 14:14:06 2017	4 years ago	3 years ago		Other	
+14615	LKWY - Constant Drifting of Masses	new	ANSS-backbone	Nobody in particular	1	aalejandro (Alexis Alejandro)	Fri Jun 22 08:23:33 2018	3 years ago	3 years ago	LKWY		
+14206	Investigate sand installation procedure	open	GSN		1	ggyure (Gary Gyure)	Tue Mar 27 11:14:40 2018	3 years ago	3 years ago		Other	
+11852	BILL: STS-1 Vertical Lowered Response	open	GSN	<lsandoval@usgsgov>	1		Fri Aug 05 15:55:45 2016	5 years ago	4 years ago		BILL	
+12003	WI - Tunneling to Q330 via GSN_RDSH	open	GSN	yprior (Yolanda Prior)	1	jander (Jared Anderson)	Wed Sep 21 11:16:29 2016	5 years ago	4 years ago		GSN	
+12691	IMS/CTBTO - complete parts spreadsheet for improved uptime	new	GSN	kpersefield (Kyle Persefield)	1	jander (Jared Anderson)	Wed Apr 12 10:39:35 2017	4 years ago	4 years ago		CTBTO	
+10834	GSN Sensor Installation Spreadsheet (FURI - KMI)	new	GSN		1	jander (Jared Anderson)	Tue Nov 17 11:00:28 2015	6 years ago	4 years ago		GSN	
+11322	GSN/CTBTO Auxiliary Station SSD 	open	GSN	kpersefield (Kyle Persefield)	1	jander (Jared Anderson)	Fri Mar 18 09:09:40 2016	5 years ago	5 years ago		CTBTO	
+7795	ENH: LP Pulses	open	GSN	<lsandoval@usgsgov>	4		Tue Jan 21 11:42:53 2014	8 years ago	5 years ago		ENH	
+11108	KONO: STS-1 North Pulses have returned	stalled	GSN		1		Wed Jan 27 11:15:55 2016	6 years ago	5 years ago		KONO	
+9326	SSE: STS-1 Horizontal Pulsing and high noise	open	GSN	kpersefield (Kyle Persefield)	1		Fri Dec 05 11:43:22 2014	7 years ago	5 years ago		SSE	
+8849	LVC: STS-1 Vacuum Loss	stalled	GSN	kpersefield (Kyle Persefield)	1		Wed Aug 20 14:39:00 2014	7 years ago	6 years ago		LVC	
+7308	PET STS-1s have overdamped response	open	GSN	tstorm (Tyler Storm)	3	tstorm (Tyler Storm)	Tue Sep 03 14:15:40 2013	8 years ago	6 years ago		PET	
+8616	ECSD Baler Not Working	new	ANSS-backbone	Nobody in particular	1		Mon Jun 30 15:56:50 2014	7 years ago	7 years ago	ECSD		
