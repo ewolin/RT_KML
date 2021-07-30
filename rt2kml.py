@@ -59,18 +59,12 @@ df[df['CustomField.{ANSS Stations}'] == 'AGMN' ]
 
 
 
-df_sta = pd.read_csv('US_2021-07.txt', sep='|')
-
-
-df_sta[df_sta[' Station '] == 'AGMN']
-
 
 # read downloaded KML from IRIS
 
 #kml_file = 'US_2021-07.kml'
 #kml_file = 'US-N4_2021-07.kml'
-#kml_file = 'ASLStations_2021-07.kml'
-kml_file = 'ASLStations_2021-07_conusview.kml'
+kml_file = 'ASLStations_2021-07.kml'
 myfile = open(kml_file, 'r')
 kmldoc = myfile.read()
 myfile.close()

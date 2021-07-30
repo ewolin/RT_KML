@@ -1,18 +1,18 @@
 id	Subject	Status	QueueName	Owner	Priority	Requestors	Created	CreatedRelative	LastUpdatedRelative	CustomField.{ANSS Stations}	CustomField.{GSN Stations}	CustomField.{N4 Stations}
-20581	D62A - 80% apparent availability because IRIS fails to flag HN* channels as triggered	open	N4 Network	Nobody in particular	0	ewolin (Emily Wolin)	Fri Jul 30 15:51:36 2021	2 minutes ago	26 seconds ago			D62A
-19483	N4_Q51A Recurring Outages - Low Power Suspected	open	N4 Network	kmwallace1 (Kyle Wallace)	0	kmwallace1 (Kyle Wallace)	Mon Jan 18 17:18:35 2021	6 months ago	36 minutes ago			Q51A
+20581	D62A - 80% apparent availability because IRIS fails to flag HN* channels as triggered	open	N4 Network	Nobody in particular	0	ewolin (Emily Wolin)	Fri Jul 30 15:51:36 2021	27 minutes ago	26 minutes ago			D62A
+19483	N4_Q51A Recurring Outages - Low Power Suspected	open	N4 Network	kmwallace1 (Kyle Wallace)	0	kmwallace1 (Kyle Wallace)	Mon Jan 18 17:18:35 2021	6 months ago	61 minutes ago			Q51A
 20579	M44A - IRIS metadata has both 12Z and UVW mass positions	new	N4 Network	Nobody in particular	0	ewolin (Emily Wolin)	Fri Jul 30 13:18:53 2021	3 hours ago	3 hours ago			M44A
 20575	Z35B - Outage 2021-07-29 (210) 09:42:57 UTC - No Comms to Q330	new	N4 Network	kmwallace1 (Kyle Wallace)	0	kmwallace1 (Kyle Wallace)	Fri Jul 30 09:59:38 2021	6 hours ago	6 hours ago			Z35B
 18634	NE_EMMW (20): RT-147 Sensor failure	new	ANSS-backbone	anss_opadmin	1	aholcomb (Andrew Holcomb)	Mon Jul 20 11:35:10 2020	1 year ago	25 hours ago	NE-EMMW		
 19013	IW_LOHW T120 is no longer operational	open	ANSS-backbone	anss_opadmin	1		Fri Sep 04 10:46:02 2020	11 months ago	25 hours ago	IW-LOHW		
-17757	P43A - Convert to VSAT to address frequent telemetry outages	open	N4 Network	jander (Jared Anderson)	0	aalejandro (Alexis Alejandro)	Tue Jan 07 15:20:36 2020	2 years ago	25 hours ago			P43A
+17757	P43A - Convert to VSAT to address frequent telemetry outages	open	N4 Network	jander (Jared Anderson)	0	aalejandro (Alexis Alejandro)	Tue Jan 07 15:20:36 2020	2 years ago	26 hours ago			P43A
 19842	RAO: Network link is up and down since M6.3 earthquake 4/1/2021	open	GSN	ekromer (Ted Kromer)	1	ekromer (Ted Kromer)	Thu Apr 01 11:28:15 2021	4 months ago	27 hours ago		RAO	
 20171	FUNA - No Telemetry Data	open	GSN	ekromer (Ted Kromer)	1	aalejandro (Alexis Alejandro)	Thu May 13 13:57:47 2021	3 months ago	27 hours ago		FUNA	
 17899	CU-GRTK: Unable to run autocal sequence in EdgeConfig. Potential VSAT issue	new	GSN	anss_opadmin	1	aholcomb (Andrew Holcomb)	Fri Jan 24 16:24:57 2020	2 years ago	28 hours ago		GRTK	
 18537	ACSO - SensOrLoc Test	open	ANSS-backbone	kmwallace1 (Kyle Wallace)	50		Fri Jun 26 11:42:19 2020	1 year ago	28 hours ago	ACSO		
 18538	CBN - SensOrLoc Test	open	ANSS-backbone	kmwallace1 (Kyle Wallace)	50		Fri Jun 26 11:42:58 2020	1 year ago	28 hours ago	CBN		
 20513	ISCO - Install heated VSAT dish	new	ANSS-backbone	Nobody in particular	50	jallen (James Allen)	Mon Jul 19 10:02:17 2021	11 days ago	28 hours ago	ISCO		
-20477	COR: No data since 7/10/2021, cannot connect to VSAT 	open	GSN	koliver (Kenneth Oliver)	1	ekromer (Ted Kromer)	Mon Jul 12 10:42:28 2021	3 weeks ago	31 hours ago		COR	
+20477	COR: No data since 7/10/2021, cannot connect to VSAT 	open	GSN	koliver (Kenneth Oliver)	1	ekromer (Ted Kromer)	Mon Jul 12 10:42:28 2021	3 weeks ago	32 hours ago		COR	
 20570	P46A, K62A - Pre-Deployment Data Checks	open	N4 Network	aalejandro (Alexis Alejandro)	0	gvallo (Gilbert Vallo)	Tue Jul 27 15:08:55 2021	3 days ago	2 days ago			P46A
 20241	P46A - 00 TR240 No Longer Recording Ground Motion	open	N4 Network	n4_opadmin	0	aalejandro (Alexis Alejandro)	Fri May 28 17:24:57 2021	2 months ago	2 days ago			P46A
 20572	T57A - Low Verizon Cell Signal and outdated Firmware 	open	N4 Network	<koliver@contractor.usgs.gov>	0	koliver (Kenneth Oliver)	Wed Jul 28 09:13:07 2021	2 days ago	2 days ago			T57A
