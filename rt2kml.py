@@ -68,8 +68,9 @@ config.read('config.ini')
 tracker= rt.Rt('https://igskgacgvmweb01.gs.doi.net/rt/REST/1.0', config['RT']['user'], config['RT']['pwd'] ,verify_cert=False)
 
 tracker.login()
+print('logged into RT')
 
-meh = tracker.search(raw_query="( Queue = 'ANSS-backbone' OR Queue = 'GSN' OR Queue = 'N4 Network' ) AND (  Status = '__Active__' OR Status = 'stalled' )", Queue=rt.ALL_QUEUES) 
+meh = tracker.search(raw_query="( Queue = 'ANSS-backbone' OR Queue = 'GSN' OR Queue = 'N4 Network' ) AND (  Status = '__Active__' OR Status = 'stalled' )", Queue=rt.ALL_QUEUES, order='-Created') 
 
 #print(meh)
 
@@ -177,7 +178,7 @@ for j in doc.features():
                 s.text += f"<tr><td width=10%>Ticket #</td><td width=60%>Subject</td><td width=30%>Last Updated</td></tr> "
                 for index, row in df_small.iterrows():
                     sub = row['Subject']
-                    tid = row['id']
+                    tid = row['id'].split('/')[-1]
 #                    lup = row['LastUpdatedRelative']
                     lup = row['LastUpdated']
                     href = f'https://igskgacgvmweb01.gs.doi.net/rt/Ticket/Display.html?id={tid}' 
@@ -191,10 +192,12 @@ for j in doc.features():
             s.text += f'<p style=\"color:{dead_color};\"> Non-dead BB channels: {avg_dead*100:.2f}% </p>'
             dashboard_url = f"https://igskgacgvmwebx1.gs.doi.net/dashboard/station/{net}/{sta}"
             dqa_url = f"https://igskgacgvmweb01.gs.doi.net/dqa/N4/summary/?network={net}&station={sta}"
+            sis_url = f"https://anss-sis.scsn.org/sis/find/?lookup={sta}"
             mda_url = f"https://ds.iris.edu/mda/{net}/{sta}"
             s.text += f"\n<a href='{dashboard_url}'> DQA Dashboard for {net} {sta}</a><br>"
             s.text += f"\n<a href='{dqa_url}'> DQA page for {net} {sta}</a><br>"
             s.text += f"\n<a href='{mda_url}'> IRIS MDA page for {net} {sta}</a><br>"
+            s.text += f"\n<a href='{sis_url}'> SIS page for {net} {sta}</a><br>"
 #            s.text += "<h1 style=\"color:blue;\">This is a heading</h1> \
 #<p style=\"color:red;\">This is a paragraph.</p>" 
         j._styles[0].append_style(icon)
