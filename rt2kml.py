@@ -27,16 +27,22 @@
 # with corresponding /Document and /kml tags at the end
 
 # use fastkml conda environment
+import configparser
 import pandas as pd
 from fastkml import kml
 from fastkml import styles
 
 
-from dqatools import dqaclient
+#from dqatools import dqaclient
+import dqaclient
 from io import StringIO
 
 
 import matplotlib.pyplot as plt
+
+
+import json
+import rt
 
 
 dqa_dead = dqaclient.call_dqa(metric='DeadChannelMetric:4-8',begin=("2021-07-19"))
@@ -52,10 +58,30 @@ df_avail = pd.read_csv(StringIO(dqa_avail), parse_dates=[0], names=names,
 # read downloaded search results from RT
 #df = pd.read_csv('Results.tsv', sep='\t')
 #df = pd.read_csv('Results_US-N4.tsv', sep='\t')
-df = pd.read_csv('Results_ASLStations.tsv', sep='\t')
+
+#df = pd.read_csv('Results_ASLStations.tsv', sep='\t')
 
 
-df[df['CustomField.{ANSS Stations}'] == 'AGMN' ]
+#############
+config = configparser.ConfigParser()
+config.read('config.ini')
+tracker= rt.Rt('https://igskgacgvmweb01.gs.doi.net/rt/REST/1.0', config['RT']['user'], config['RT']['pwd'] ,verify_cert=False)
+
+tracker.login()
+
+meh = tracker.search(raw_query="( Queue = 'ANSS-backbone' OR Queue = 'GSN' OR Queue = 'N4 Network' ) AND (  Status = '__Active__' OR Status = 'stalled' )", Queue=rt.ALL_QUEUES) 
+
+#print(meh)
+
+#print(len(meh))
+
+
+df = pd.read_json(json.dumps(meh))
+#############
+
+#df[df['CustomField.{ANSS Stations}'] == 'AGMN' ]
+df[df['CF.{ANSS Stations}'] == 'AGMN' ]
+# when using rt package (NOT spreadsheet), need to use CF instead
 
 
 
@@ -79,7 +105,8 @@ doc = features[0]
 
 #netname = 'US'
 netname = 'US-N4'
-doc.name=f'{netname}_RTtickets'
+doc.name='ASL_RTtickets'
+#doc.name=f'{netname}_RTtickets'
 
 #icon_href = 'http://ds.iris.edu/static/img/markers/circle-dot-10x10-33CC33.27295a36c313.png'
 icon_href = 'http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png'
@@ -88,22 +115,22 @@ for j in doc.features():
     color = '#ff00ffff' # yellow
     sta = j.name.split('.')[-1]
     net = j.name.split('.')[0]
-    print(j.name, net, sta)
+    #print(j.name, net, sta)
     if net == "N4":
-        df_small = df[df['CustomField.{N4 Stations}'] == sta ]
+        df_small = df[df['CF.{N4 Stations}'] == sta ]
     elif net in [ "IU", "CU", "IC" ] :
-        df_small = df[df['CustomField.{GSN Stations}'] == sta ]
+        df_small = df[df['CF.{GSN Stations}'] == sta ]
     elif net in [ "IW", "NE"] : 
-        df_small = df[ df['CustomField.{ANSS Stations}'] == f'{net}-{sta}']
+        df_small = df[ df['CF.{ANSS Stations}'] == f'{net}-{sta}']
     else:
-        df_small = df[ df['CustomField.{ANSS Stations}'] == sta ]
+        df_small = df[ df['CF.{ANSS Stations}'] == sta ]
         
 
-    print(df_small)
+    #print(df_small)
 
     avg_dead = df_dead[df_dead['Sta'] == sta]['MetricVal'].mean()
     avg_avail = df_avail[df_avail['Sta'] == sta]['MetricVal'].mean()
-    print(avg_dead, 'avg_dead')
+    #print(avg_dead, 'avg_dead')
     if avg_dead < 1.0:
         color = '#ff0000ff' #red
     elif avg_avail < 90:
@@ -139,11 +166,11 @@ for j in doc.features():
 
     icon = styles.IconStyle(scale=len(df_small)+1, icon_href=icon_href, color=color)
     for style in j.styles():
-        print('--',style)
+        #print('--',style)
         for s in style.styles():
-            print('----',s)
+            #print('----',s)
             s.text = f"<h1> {net}.{sta}</h1>" 
-            s.text += f"<table width =\"600\"><tr><h2> RT Tickets:</h2></tr>" 
+            s.text += f"<table width =\"600\"><tr><h2> Active or Stalled RT Tickets:</h2></tr>" 
             if len(df_small) == 0:
                 s.text += "<tr>No open or stalled tickets</tr>"
             else:
@@ -151,7 +178,8 @@ for j in doc.features():
                 for index, row in df_small.iterrows():
                     sub = row['Subject']
                     tid = row['id']
-                    lup = row['LastUpdatedRelative']
+#                    lup = row['LastUpdatedRelative']
+                    lup = row['LastUpdated']
                     href = f'https://igskgacgvmweb01.gs.doi.net/rt/Ticket/Display.html?id={tid}' 
                     s.text += f"<tr><td width=10%>{tid}</td><td width=60%><a href='{href}'> {sub}</a></td><td width=30%>{lup}</td></tr> "
             s.text += "</table>"
