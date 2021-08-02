@@ -9,8 +9,10 @@ To generate a KML with station status info, links to tickets, etc.:
 
 Must be on USGS network or VPN for this to work!
 
+Also requires a conda environment with rt (https://github.com/CZ-NIC/python-rt) and fastkml (install from conda-forge).
 
-to run as a cron job: 
+
+to run as a cron job every 30 min: 
 ```
 crontab -e
 SHELL=/bin/bash
