@@ -37,6 +37,7 @@ from fastkml import styles
 import dqaclient
 from io import StringIO
 
+import datetime as dt
 
 import matplotlib.pyplot as plt
 
@@ -44,14 +45,18 @@ import matplotlib.pyplot as plt
 import json
 import rt
 
+# DQA has metrics up to 3 days ago
+threedaysago = dt.datetime.utcnow() - dt.timedelta(days=3)
+# get a 7-day average:
+tendaysago = dt.datetime.utcnow() - dt.timedelta(days=10)
 
-dqa_dead = dqaclient.call_dqa(metric='DeadChannelMetric:4-8',begin=("2021-07-19"))
+dqa_dead = dqaclient.call_dqa(metric='DeadChannelMetric:4-8',begin=(tendaysago.strftime("%Y-%m-%d")))
 names = ['Date', 'Net', 'Sta', 'Loc', 'Cha', 'Metric', 'MetricVal']
 df_dead = pd.read_csv(StringIO(dqa_dead), parse_dates=[0], names=names,
                       sep='\s+', dtype={'Loc':str})
 
 
-dqa_avail = dqaclient.call_dqa(metric='AvailabilityMetric',begin=("2021-07-19"))
+dqa_avail = dqaclient.call_dqa(metric='AvailabilityMetric',begin=(tendaysago.strftime("%Y-%m-%d")))
 df_avail = pd.read_csv(StringIO(dqa_avail), parse_dates=[0], names=names,
                        sep='\s+', dtype={'Loc':str})
 
@@ -91,7 +96,8 @@ df[df['CF.{ANSS Stations}'] == 'AGMN' ]
 
 #kml_file = 'US_2021-07.kml'
 #kml_file = 'US-N4_2021-07.kml'
-kml_file = 'ASLStations_2021-07.kml'
+#kml_file = 'ASLStations_2021-07.kml'
+kml_file = 'ASLStations_2021-10.kml'
 myfile = open(kml_file, 'r')
 kmldoc = myfile.read()
 myfile.close()
@@ -111,6 +117,8 @@ doc.name='ASL_RTtickets'
 
 #icon_href = 'http://ds.iris.edu/static/img/markers/circle-dot-10x10-33CC33.27295a36c313.png'
 icon_href = 'http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png'
+#icon_href = 'http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png'
+#icon_href = '/Users/ewolin/code/RT_KML/circle.png'
 
 for j in doc.features():
     color = '#ff00ffff' # yellow
