@@ -75,7 +75,8 @@ tracker= rt.Rt('https://igskgacgvmweb01.gs.doi.net/rt/REST/1.0', config['RT']['u
 tracker.login()
 print('logged into RT')
 
-meh = tracker.search(raw_query="( Queue = 'ANSS-backbone' OR Queue = 'GSN' OR Queue = 'N4 Network' ) AND (  Status = '__Active__' OR Status = 'stalled' )", Queue=rt.ALL_QUEUES, order='-Created') 
+#meh = tracker.search(raw_query="( Queue = 'ANSS-backbone' OR Queue = 'GSN' OR Queue = 'N4 Network' ) AND (  Status = '__Active__' OR Status = 'stalled' )", Queue=rt.ALL_QUEUES, order='-Created') 
+meh = tracker.search(raw_query="( Queue = 'ANSS-backbone' OR Queue = 'GSN' OR Queue = 'N4 Network' OR Queue = 'Aftershock' ) AND (  Status = '__Active__' OR Status = 'stalled' )", Queue=rt.ALL_QUEUES, order='-Created') 
 
 #print(meh)
 
@@ -131,6 +132,8 @@ for j in doc.features():
         df_small = df[df['CF.{GSN Stations}'] == sta ]
     elif net in [ "IW", "NE"] : 
         df_small = df[ df['CF.{ANSS Stations}'] == f'{net}-{sta}']
+    elif net == "GS":
+        df_small = df[ df['Subject'].str.contains(sta)] 
     else:
         df_small = df[ df['CF.{ANSS Stations}'] == sta ]
         
