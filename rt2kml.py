@@ -205,10 +205,16 @@ for j in doc.features():
             dqa_url = f"https://igskgacgvmweb01.gs.doi.net/dqa/N4/summary/?network={net}&station={sta}"
             sis_url = f"https://anss-sis.scsn.org/sis/find/?lookup={sta}"
             mda_url = f"https://ds.iris.edu/mda/{net}/{sta}"
+            if net in ["IU", "US"]:
+                ch = "BH"
+            else:
+                ch = "HH"
+            spectro_url = f"http://service.iris.edu/mustang/noise-spectrogram/1/query?net={net}&sta={sta}&loc=00&cha={ch}Z&quality=M&output=power&format=plot&plot.color.palette=YlGnBu&plot.color.invert=true&plot.horzaxis=time&plot.time.matchrequest=true&plot.time.tickunit=auto&plot.time.invert=false&plot.powerscale.show=true&plot.powerscale.range=-180,-110&plot.powerscale.orientation=horz&nodata=404"
             s.text += f"\n<a href='{dashboard_url}'> DQA Dashboard for {net} {sta}</a><br>"
             s.text += f"\n<a href='{dqa_url}'> DQA page for {net} {sta}</a><br>"
             s.text += f"\n<a href='{mda_url}'> IRIS MDA page for {net} {sta}</a><br>"
             s.text += f"\n<a href='{sis_url}'> SIS page for {net} {sta}</a><br>"
+            s.text += f"\n<a href='{spectro_url}'> Noise-spectrogram for {net} {sta} 00 {ch}Z</a><br>"
 #            s.text += "<h1 style=\"color:blue;\">This is a heading</h1> \
 #<p style=\"color:red;\">This is a paragraph.</p>" 
         j._styles[0].append_style(icon)
