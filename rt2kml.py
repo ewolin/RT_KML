@@ -41,9 +41,10 @@ import datetime as dt
 
 import matplotlib.pyplot as plt
 
+from copy import deepcopy
 
-import json
 import rt
+import json
 
 # DQA has metrics up to 3 days ago
 threedaysago = dt.datetime.utcnow() - dt.timedelta(days=3)
@@ -76,14 +77,24 @@ tracker.login()
 print('logged into RT')
 
 #meh = tracker.search(raw_query="( Queue = 'ANSS-backbone' OR Queue = 'GSN' OR Queue = 'N4 Network' ) AND (  Status = '__Active__' OR Status = 'stalled' )", Queue=rt.ALL_QUEUES, order='-Created') 
-meh = tracker.search(raw_query="( Queue = 'ANSS-backbone' OR Queue = 'GSN' OR Queue = 'N4 Network' OR Queue = 'Aftershock' ) AND (  Status = '__Active__' OR Status = 'stalled' )", Queue=rt.ALL_QUEUES, order='-Created') 
-
+# important: include aftershock queue to get GS stations!!
+#meh = tracker.search(raw_query="( Queue = 'ANSS-backbone' OR Queue = 'GSN' OR Queue = 'N4 Network' OR Queue = 'Aftershock' ) AND (  Status = '__Active__' OR Status = 'stalled' )", Queue=rt.ALL_QUEUES, order='-Created') 
+# try excluding tickets for archive data gaps?
+meh = tracker.search(raw_query="( Queue = 'ANSS-backbone' OR Queue = 'GSN' OR Queue = 'N4 Network' OR Queue = 'Aftershock' ) AND (  Status = '__Active__' OR Status = 'stalled' ) AND ( Subject NOT LIKE 'gaps in archive' )", Queue=rt.ALL_QUEUES, order='-Created') 
 #print(meh)
+meh2 = tracker.search(raw_query="( Queue = 'ANSS-backbone' OR Queue = 'GSN' OR Queue = 'N4 Network' OR Queue = 'Aftershock' ) AND (  Status = '__Active__' OR Status = 'stalled' ) AND ( Subject LIKE 'gaps in archive' )", Queue=rt.ALL_QUEUES, order='-Created') 
+
+#outf = open('meh.tsv', 'w')
+#outf.write(json.dumps(meh))
+#outf.close()
 
 #print(len(meh))
 
 
 df = pd.read_json(json.dumps(meh))
+df.to_csv('meh.tsv')
+df2 = pd.read_json(json.dumps(meh2))
+df2.to_csv('CheckArchiveGaps.tsv')
 #############
 
 #df[df['CustomField.{ANSS Stations}'] == 'AGMN' ]
@@ -107,9 +118,18 @@ k = kml.KML()
 #k.from_string(kmldoc)
 k.from_string(kmldoc.encode('utf-8'))
 
+k_new = kml.KML()
+doc = kml.Document()
+k_new.append(doc)
+f_good = kml.Folder(name='NoTickets')
+doc.append(f_good)
+f_tix = kml.Folder(name='OpenTickets')
+doc.append(f_tix)
 
 features = list(k.features())
-doc = features[0]
+#doc = features[0]
+doc_copy = deepcopy(features[0])
+print(doc_copy)
 
 #netname = 'US'
 netname = 'US-N4'
@@ -121,7 +141,7 @@ icon_href = 'http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png'
 #icon_href = 'http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png'
 #icon_href = '/Users/ewolin/code/RT_KML/circle.png'
 
-for j in doc.features():
+for j in doc_copy.features():
     color = '#ff00ffff' # yellow
     sta = j.name.split('.')[-1]
     net = j.name.split('.')[0]
@@ -176,7 +196,13 @@ for j in doc.features():
 #        plt.gcf().autofmt_xdate()
         
 
-    icon = styles.IconStyle(scale=len(df_small)+1, icon_href=icon_href, color=color)
+    iconscale = len(df_small)+1
+    if len(df_small) == 0 and avg_dead > 0.99 and avg_avail > 90:
+        #iconscale = 0
+        iconscale = 1
+#    icon = styles.IconStyle(scale=len(df_small)+1, icon_href=icon_href, color=color)
+    icon = styles.IconStyle(scale=iconscale, icon_href=icon_href, color=color)
+    label = styles.LabelStyle(scale=0.5, color='white')
     for style in j.styles():
         #print('--',style)
         for s in style.styles():
@@ -202,7 +228,7 @@ for j in doc.features():
             s.text += f'<p style=\"color:{avail_color};\"> Availability: {avg_avail:.2f}%</p>'
             s.text += f'<p style=\"color:{dead_color};\"> Non-dead BB channels: {avg_dead*100:.2f}% </p>'
             dashboard_url = f"https://igskgacgvmwebx1.gs.doi.net/dashboard/station/{net}/{sta}"
-            dqa_url = f"https://igskgacgvmweb01.gs.doi.net/dqa/N4/summary/?network={net}&station={sta}"
+            dqa_url = f"https://igskgacgvmweb01.gs.doi.net/dqa/{net}/summary/?network={net}&station={sta}"
             sis_url = f"https://anss-sis.scsn.org/sis/find/?lookup={sta}"
             mda_url = f"https://ds.iris.edu/mda/{net}/{sta}"
             if net in ["IU", "US"]:
@@ -210,21 +236,32 @@ for j in doc.features():
             else:
                 ch = "HH"
             spectro_url = f"http://service.iris.edu/mustang/noise-spectrogram/1/query?net={net}&sta={sta}&loc=00&cha={ch}Z&quality=M&output=power&format=plot&plot.color.palette=YlGnBu&plot.color.invert=true&plot.horzaxis=time&plot.time.matchrequest=true&plot.time.tickunit=auto&plot.time.invert=false&plot.powerscale.show=true&plot.powerscale.range=-180,-110&plot.powerscale.orientation=horz&nodata=404"
+            spectro_url_acc = f"http://service.iris.edu/mustang/noise-spectrogram/1/query?net={net}&sta={sta}&loc=20&cha=LNZ&quality=M&output=power&format=plot&plot.color.palette=YlGnBu&plot.color.invert=true&plot.horzaxis=time&plot.time.matchrequest=true&plot.time.tickunit=auto&plot.time.invert=false&plot.powerscale.show=true&plot.powerscale.range=-120,-80&plot.powerscale.orientation=horz&nodata=404"
             s.text += f"\n<a href='{dashboard_url}'> DQA Dashboard for {net} {sta}</a><br>"
             s.text += f"\n<a href='{dqa_url}'> DQA page for {net} {sta}</a><br>"
             s.text += f"\n<a href='{mda_url}'> IRIS MDA page for {net} {sta}</a><br>"
             s.text += f"\n<a href='{sis_url}'> SIS page for {net} {sta}</a><br>"
             s.text += f"\n<a href='{spectro_url}'> Noise-spectrogram for {net} {sta} 00 {ch}Z</a><br>"
+            s.text += f"\n<a href='{spectro_url_acc}'> Noise-spectrogram for {net} {sta} 20 LNZ</a><br> (BETA: may not exist)"
 #            s.text += "<h1 style=\"color:blue;\">This is a heading</h1> \
 #<p style=\"color:red;\">This is a paragraph.</p>" 
         j._styles[0].append_style(icon)
+        j._styles[0].append_style(label)
 
-    if len(df_small) == 0 and avg_dead > 0.99 and avg_avail > 90:
+    print('------------')
+    print(avg_dead, pd.isnull(avg_dead))
+    if len(df_small) == 0 and ( avg_dead > 0.99 or pd.isnull(avg_dead)) and avg_avail > 90:
         j.visibility = 0
+
+    if j.visibility == 0:
+        f_good.append(j)
+    else:
+        f_tix.append(j)
 
 
 
 outfile = open(f'{doc.name}.kml', 'w')
-outfile.write(k.to_string(prettyprint=True))
+#outfile.write(k.to_string(prettyprint=True))
+outfile.write(k_new.to_string(prettyprint=True))
 outfile.close()
 print(f"wrote {doc.name}.kml")
