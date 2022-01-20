@@ -7,7 +7,8 @@ To generate a KML with station status info, links to tickets, etc.:
 3. Run rt2kml.py to create ASL_RTtickets.kml
 4. Open network link file ASL_Station_Status.kml to get an auto-refreshing KML
 
-Must be on USGS network or VPN for this to work!
+Must be on USGS network or VPN for the DQA and RT queries to work!
+After that you can view the KML and ticket subjects off-line if needed.
 
 Also requires a conda environment with rt (https://github.com/CZ-NIC/python-rt) and fastkml (install from conda-forge).
 
