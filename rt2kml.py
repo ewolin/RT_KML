@@ -109,7 +109,8 @@ df[df['CF.{ANSS Stations}'] == 'AGMN' ]
 #kml_file = 'US_2021-07.kml'
 #kml_file = 'US-N4_2021-07.kml'
 #kml_file = 'ASLStations_2021-07.kml'
-kml_file = 'ASLStations_2021-10.kml'
+#kml_file = 'ASLStations_2021-10.kml'
+kml_file = 'ASLStations_2022-02.kml'
 myfile = open(kml_file, 'r')
 kmldoc = myfile.read()
 myfile.close()
@@ -231,7 +232,7 @@ for j in doc_copy.features():
             dqa_url = f"https://igskgacgvmweb01.gs.doi.net/dqa/{net}/summary/?network={net}&station={sta}"
             sis_url = f"https://anss-sis.scsn.org/sis/find/?lookup={sta}"
             mda_url = f"https://ds.iris.edu/mda/{net}/{sta}"
-            if net in ["IU", "US"]:
+            if net in ["IU", "US", "IW"]:
                 ch = "BH"
             else:
                 ch = "HH"
@@ -265,3 +266,5 @@ outfile = open(f'{doc.name}.kml', 'w')
 outfile.write(k_new.to_string(prettyprint=True))
 outfile.close()
 print(f"wrote {doc.name}.kml")
+print(len(list(f_tix.features())), 'stns with tickets')
+print(len(list(f_good.features())), 'stns with no tickets')
