@@ -51,13 +51,15 @@ threedaysago = dt.datetime.utcnow() - dt.timedelta(days=3)
 # get a 7-day average:
 tendaysago = dt.datetime.utcnow() - dt.timedelta(days=10)
 
-dqa_dead = dqaclient.call_dqa(metric='DeadChannelMetric:4-8',begin=(tendaysago.strftime("%Y-%m-%d")))
+dqa_dead = dqaclient.call_dqa(metric='DeadChannelMetric:4-8',begin=(tendaysago.strftime("%Y-%m-%d")),
+                              end=threedaysago.strftime("%Y-%m-%d"))
 names = ['Date', 'Net', 'Sta', 'Loc', 'Cha', 'Metric', 'MetricVal']
 df_dead = pd.read_csv(StringIO(dqa_dead), parse_dates=[0], names=names,
                       sep='\s+', dtype={'Loc':str})
 
 
-dqa_avail = dqaclient.call_dqa(metric='AvailabilityMetric',begin=(tendaysago.strftime("%Y-%m-%d")))
+dqa_avail = dqaclient.call_dqa(metric='AvailabilityMetric',begin=(tendaysago.strftime("%Y-%m-%d")),
+                              end=threedaysago.strftime("%Y-%m-%d"))#, channel="LH%")
 df_avail = pd.read_csv(StringIO(dqa_avail), parse_dates=[0], names=names,
                        sep='\s+', dtype={'Loc':str})
 
@@ -110,7 +112,8 @@ df[df['CF.{ANSS Stations}'] == 'AGMN' ]
 #kml_file = 'US-N4_2021-07.kml'
 #kml_file = 'ASLStations_2021-07.kml'
 #kml_file = 'ASLStations_2021-10.kml'
-kml_file = 'ASLStations_2022-02.kml'
+#kml_file = 'ASLStations_2022-02.kml'
+kml_file = 'ASLStations_2022-03.kml'
 myfile = open(kml_file, 'r')
 kmldoc = myfile.read()
 myfile.close()
@@ -228,7 +231,7 @@ for j in doc_copy.features():
             s.text += f'<h2> Past 7 days:</h2>' 
             s.text += f'<p style=\"color:{avail_color};\"> Availability: {avg_avail:.2f}%</p>'
             s.text += f'<p style=\"color:{dead_color};\"> Non-dead BB channels: {avg_dead*100:.2f}% </p>'
-            dashboard_url = f"https://igskgacgvmwebx1.gs.doi.net/dashboard/station/{net}/{sta}"
+            dashboard_url = f"https://igskgacgvmweb01.gs.doi.net/dashboard/station/{net}/{sta}"
             dqa_url = f"https://igskgacgvmweb01.gs.doi.net/dqa/{net}/summary/?network={net}&station={sta}"
             sis_url = f"https://anss-sis.scsn.org/sis/find/?lookup={sta}"
             mda_url = f"https://ds.iris.edu/mda/{net}/{sta}"
@@ -243,14 +246,14 @@ for j in doc_copy.features():
             s.text += f"\n<a href='{mda_url}'> IRIS MDA page for {net} {sta}</a><br>"
             s.text += f"\n<a href='{sis_url}'> SIS page for {net} {sta}</a><br>"
             s.text += f"\n<a href='{spectro_url}'> Noise-spectrogram for {net} {sta} 00 {ch}Z</a><br>"
-            s.text += f"\n<a href='{spectro_url_acc}'> Noise-spectrogram for {net} {sta} 20 LNZ</a><br> (BETA: may not exist)"
+            s.text += f"\n<a href='{spectro_url_acc}'> Noise-spectrogram for {net} {sta} 20 LNZ</a>(BETA: may not exist)<br>"
 #            s.text += "<h1 style=\"color:blue;\">This is a heading</h1> \
 #<p style=\"color:red;\">This is a paragraph.</p>" 
         j._styles[0].append_style(icon)
         j._styles[0].append_style(label)
 
-    print('------------')
-    print(avg_dead, pd.isnull(avg_dead))
+    #print('------------')
+    #print(avg_dead, pd.isnull(avg_dead))
     if len(df_small) == 0 and ( avg_dead > 0.99 or pd.isnull(avg_dead)) and avg_avail > 90:
         j.visibility = 0
 
