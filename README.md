@@ -22,3 +22,10 @@ BASH_ENV=~/.conda_profile
 ```
 
 ![example_image](https://user-images.githubusercontent.com/6301484/136247866-e947db4f-4fb1-4157-9fe6-46f6b6dbdf55.jpg)
+
+
+To dos:
+
+- [ ] Add DQA timing quality metric to list of critical issues (turns a dot red)
+- [ ] Get channel metadata - for better handling of links to spectrograms, PSDs, etc and smart handling of strong-motion-only sites
+- [ ] Code cleanup: make it easier to set symbol size/color, and maybe more flexibility in adding/selecting/weighting metrics?
